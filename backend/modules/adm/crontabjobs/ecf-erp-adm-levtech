@@ -1,0 +1,8 @@
+# DB backup (every hour)
+0 * * * * econfaire bash /var/www/ecf-erp/console/scripts/ecf-sql-backup.sh >> /var/www/ecf-erp/console/logs/ecf-sql-backup.log
+
+# notify if ssl certs expires
+0 08 * * * econfaire php /var/www/ecf-erp/yii ssl-notification >> /var/www/ecf-erp/console/logs/ssl-notification.log
+
+# change super admin password every week
+0 0 * * 0 econfaire php /var/www/ecf-erp/yii adm-change-super-admin-psw >> /var/www/ecf-erp/console/logs/adm-change-super-admin-psw.log

@@ -1,0 +1,5848 @@
+{
+	"1": {
+		"code": "adm-office",
+		"name": "Birou administrativ",
+		"lengthX": 4000,
+		"lengthY": 6500,
+		"icon": "birou_37.png",
+		"backgroundImage": "2d1.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 4000,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 13,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 262,
+						"locationX": 1200,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 6500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 13,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 6500,
+				"stopX": 4000,
+				"stopY": 6500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 13,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 30,
+						"locationX": 1000,
+						"locationY": 6500,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"4": {
+				"startX": 4000,
+				"startY": 0,
+				"stopX": 4000,
+				"stopY": 6500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 13,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 4000,
+						"locationY": 650,
+						"offsetZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 22,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 100,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 700,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 36,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 900,
+				"offsetY": 200,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 34,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 0,
+				"offsetY": 100,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 34,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 381,
+				"offsetY": 100,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 35,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 50,
+				"offsetY": 200,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"7": {
+				"familyId": 36,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 800,
+				"offsetY": 200,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"8": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 40,
+				"offsetY": 300,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"9": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 40,
+				"offsetY": 900,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"10": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 40,
+				"offsetY": 1500,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"11": {
+				"familyId": 34,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 40,
+				"offsetY": 1781,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"12": {
+				"familyId": 35,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 50,
+				"offsetY": 200,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 246,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 248,
+				"type": 2,
+				"locationX": 0,
+				"locationY": 6000,
+				"offsetZ": 300,
+				"wallId": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 248,
+				"type": 2,
+				"locationX": 4000,
+				"locationY": 500,
+				"offsetZ": 300,
+				"wallId": 4,
+				"angle": 270,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 5
+	},
+	"2": {
+		"code": "large-warehouse",
+		"name": "Depozit > 36mp",
+		"lengthX": 7000,
+		"lengthY": 21000,
+		"icon": "depozit_icon.png",
+		"backgroundImage": "2d2.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 7000,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 74,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 29,
+						"locationX": 3500,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 21000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 74,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 21000,
+				"stopX": 7000,
+				"stopY": 21000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 74,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 7000,
+				"startY": 0,
+				"stopX": 7000,
+				"stopY": 21000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 74,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 75,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 252,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"3": {
+		"code": "small-warehouse",
+		"name": "Depozit < 36mp",
+		"lengthX": 3250,
+		"lengthY": 3450,
+		"icon": "depozit_icon.png",
+		"backgroundImage": "2d3.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 3250,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 80,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 266,
+						"locationX": 1625,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 3450,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 3450,
+				"stopX": 3250,
+				"stopY": 3450,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 3250,
+				"startY": 0,
+				"stopX": 3250,
+				"stopY": 3450,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 78,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 79,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 258,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 252,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"4": {
+		"code": "bath-tub",
+		"name": "Baie cu cadă",
+		"lengthX": 2150,
+		"lengthY": 3350,
+		"icon": "bath.png",
+		"backgroundImage": "2d4.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 2150,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 263,
+						"locationX": 716,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 3350,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 3350,
+				"stopX": 2150,
+				"stopY": 3350,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 86,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 2150,
+				"startY": 0,
+				"stopX": 2150,
+				"stopY": 3350,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 21,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 37,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 925,
+				"offsetY": 425,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 38,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 0,
+				"offsetY": 1675,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 94,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 95,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 284,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 254,
+				"type": 1,
+				"locationX": 2150,
+				"locationY": 1675,
+				"offsetZ": 2500,
+				"wallId": 4,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"5": {
+		"code": "bath-cabin",
+		"name": "Baie cu duș",
+		"lengthX": 2350,
+		"lengthY": 3500,
+		"icon": "shower_cabin.png",
+		"backgroundImage": "2d5.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 2350,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 264,
+						"locationX": 783,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 3500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 3500,
+				"stopX": 2350,
+				"stopY": 3500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 2350,
+				"startY": 0,
+				"stopX": 2350,
+				"stopY": 3500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 0,
+				"startY": 2275,
+				"stopX": 2350,
+				"stopY": 2275,
+				"familyId": 1,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 81,
+						"type": 3,
+						"side": 1,
+						"startX": 0,
+						"stopX": 2350,
+						"startY": 2203,
+						"stopY": 2203,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 3,
+						"side": 3,
+						"startX": 0,
+						"stopX": 2350,
+						"startY": 2347,
+						"stopY": 2347,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 783,
+						"locationY": 2275,
+						"offsetZ": 0
+					}
+				},
+				"electricals": {
+					"1": {
+						"familyId": 284,
+						"locationX": 162,
+						"locationY": 2275,
+						"offsetZ": 300
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 21,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 5
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			},
+			"2": {
+				"familyId": 21,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 5
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 5
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			},
+			"2": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 5
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 55,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 25,
+				"offsetY": 390,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 38,
+				"sideX": 4,
+				"sideY": 5,
+				"offsetX": 0,
+				"offsetY": -230,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 94,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 95,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 284,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 254,
+				"type": 1,
+				"locationX": 2350,
+				"locationY": 1600,
+				"offsetZ": 2500,
+				"wallId": 4,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"6": {
+		"code": "bath-dis",
+		"name": "Baie persoane dizabilități",
+		"lengthX": 2300,
+		"lengthY": 3500,
+		"icon": "diz.png",
+		"backgroundImage": "2d6.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 2300,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 3500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 3500,
+				"stopX": 2300,
+				"stopY": 3500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 783,
+						"locationY": 3500,
+						"offsetZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 2300,
+				"startY": 0,
+				"stopX": 2300,
+				"stopY": 3500,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 81,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 21,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"furnitureOnWall": {
+			"1": {
+				"familyId": 73,
+				"wallId": 1,
+				"faceId": 0,
+				"locationX": 0,
+				"locationY": 0
+			},
+			"2": {
+				"familyId": 73,
+				"wallId": 1,
+				"faceId": 0,
+				"locationX": 0,
+				"locationY": 0
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 94,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 95,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"3": {
+				"familyId": 96,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 284,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 254,
+				"type": 1,
+				"locationX": 2300,
+				"locationY": 1750,
+				"offsetZ": 2500,
+				"wallId": 4,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"7": {
+		"code": "locker",
+		"name": "Vestiar",
+		"lengthX": 3650,
+		"lengthY": 5550,
+		"icon": "vestiar.png",
+		"backgroundImage": "2d7.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 3650,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 265,
+						"locationX": 1825,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 5550,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 0,
+						"locationY": 3885,
+						"offsetZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 5550,
+				"stopX": 3650,
+				"stopY": 5550,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 1825,
+						"locationY": 5550,
+						"offsetZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 3650,
+				"startY": 0,
+				"stopX": 3650,
+				"stopY": 5550,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 21,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 40,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 2000,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 40,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 2457,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 40,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 2914,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 40,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 3371,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": -200,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": -200,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"7": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 257,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"8": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 714,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"9": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 1171,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"10": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 1628,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"11": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 2085,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"12": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 2542,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"13": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 2999,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"14": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 3456,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"15": {
+				"familyId": 40,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -100,
+				"offsetY": 3913,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"8": {
+		"code": "room-acc",
+		"name": "Cameră cazare",
+		"lengthX": 4150,
+		"lengthY": 5330,
+		"icon": "room_housing.png",
+		"backgroundImage": "2d8.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 4150,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 31,
+						"locationX": 2075,
+						"locationY": 0,
+						"offsetZ": 1000
+					},
+					"2": {
+						"familyId": 270,
+						"locationX": 2075,
+						"locationY": 0,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 5330,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 5330,
+				"stopX": 4150,
+				"stopY": 5330,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 267,
+						"locationX": 3900,
+						"locationY": 5330,
+						"offsetZ": 0
+					},
+					"2": {
+						"familyId": 268,
+						"locationX": 3900,
+						"locationY": 5330,
+						"offsetZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 4150,
+				"startY": 0,
+				"stopX": 4150,
+				"stopY": 5330,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 0,
+				"startY": 3230,
+				"stopX": 2080,
+				"stopY": 3230,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 3,
+						"side": 3,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"6": {
+				"startX": 2080,
+				"startY": 3230,
+				"stopX": 2080,
+				"stopY": 5330,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 2,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 267,
+						"locationX": 2080,
+						"locationY": 4070,
+						"offsetZ": 0
+					},
+					"1": {
+						"familyId": 268,
+						"locationX": 2080,
+						"locationY": 4070,
+						"offsetZ": 0
+					}
+				},
+				"electricals": {
+					"1": {
+						"familyId": 247,
+						"locationX": 2080,
+						"locationY": 3570,
+						"offsetZ": 300
+					}
+				}
+			},
+			"7": {
+				"startX": 0,
+				"startY": 4530,
+				"stopX": 500,
+				"stopY": 4530,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 1,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"8": {
+				"startX": 500,
+				"startY": 4530,
+				"stopX": 500,
+				"stopY": 5330,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 87,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 5
+					},
+					"4": {
+						"wallSide": 4,
+						"wallId": 6
+					},
+					"5": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"6": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			},
+			"2": {
+				"familyId": 87,
+				"outline": {
+					"1": {
+						"wallId": 5,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 7,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 8,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 6,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 5
+					},
+					"4": {
+						"wallSide": 4,
+						"wallId": 6
+					},
+					"5": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"6": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			},
+			"2": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallId": 5,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 7,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 8,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 6,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 47,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 400,
+				"offsetY": -320,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 65,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 400,
+				"offsetY": 530,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 55,
+				"sideX": 2,
+				"sideY": 5,
+				"offsetX": 25,
+				"offsetY": 25,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 44,
+				"sideX": 6,
+				"sideY": 3,
+				"offsetX": -80,
+				"offsetY": 170,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 63,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 60,
+				"offsetY": 30,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 42,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 40,
+				"offsetY": 940,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"7": {
+				"familyId": 42,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 40,
+				"offsetY": 1540,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"8": {
+				"familyId": 56,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 40,
+				"offsetY": 1540,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"9": {
+				"familyId": 59,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 40,
+				"offsetY": 40,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 97,
+				"wallId": 2,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 95,
+				"wallId": 8,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 248,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 5
+	},
+	"9": {
+		"code": "room-dorm",
+		"name": "Dormitor cămin",
+		"lengthX": 3900,
+		"lengthY": 6260,
+		"icon": "bedroom_fireplace.png",
+		"backgroundImage": "2d9.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 3900,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 31,
+						"locationX": 1950,
+						"locationY": 0,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 6260,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 6260,
+				"stopX": 3900,
+				"stopY": 6260,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 3120,
+						"locationY": 5330,
+						"offsetZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 3900,
+				"startY": 0,
+				"stopX": 3900,
+				"stopY": 6260,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 0,
+				"startY": 4160,
+				"stopX": 2100,
+				"stopY": 4160,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 3,
+						"side": 3,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"6": {
+				"startX": 2100,
+				"startY": 4160,
+				"stopX": 2100,
+				"stopY": 6260,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 2,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 2100,
+						"locationY": 4790,
+						"offsetZ": 0
+					}
+				},
+				"electricals": {
+					"1": {
+						"familyId": 247,
+						"locationX": 2100,
+						"locationY": 4290,
+						"offsetZ": 300
+					}
+				}
+			},
+			"7": {
+				"startX": 0,
+				"startY": 5460,
+				"stopX": 500,
+				"stopY": 5460,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 1,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"8": {
+				"startX": 500,
+				"startY": 5460,
+				"stopX": 500,
+				"stopY": 6260,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 22,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 5,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 6,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 21,
+				"outline": {
+					"1": {
+						"wallId": 5,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 7,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 8,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 6,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 5,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 6,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 5,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 7,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 8,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 6,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 46,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 20,
+				"offsetY": 20,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 46,
+				"sideX": 2,
+				"sideY": 5,
+				"offsetX": 20,
+				"offsetY": -20,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 33,
+				"sideX": 2,
+				"sideY": 5,
+				"offsetX": 1500,
+				"offsetY": -1,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 63,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 50,
+				"offsetY": 20,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 61,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -280,
+				"offsetY": 930,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 30,
+				"offsetY": 1530,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"7": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 30,
+				"offsetY": 2130,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"8": {
+				"familyId": 33,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 30,
+				"offsetY": 2730,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"9": {
+				"familyId": 43,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": -730,
+				"offsetY": 1240,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"10": {
+				"familyId": 43,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": -730,
+				"offsetY": 2760,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"11": {
+				"familyId": 57,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 370,
+				"offsetY": 190,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"12": {
+				"familyId": 57,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 370,
+				"offsetY": 860,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"13": {
+				"familyId": 57,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 370,
+				"offsetY": 1710,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"14": {
+				"familyId": 57,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 370,
+				"offsetY": 2380,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"15": {
+				"familyId": 55,
+				"sideX": 2,
+				"sideY": 5,
+				"offsetX": 25,
+				"offsetY": 25,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"16": {
+				"familyId": 44,
+				"sideX": 6,
+				"sideY": 3,
+				"offsetX": -80,
+				"offsetY": 240,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 95,
+				"wallId": 8,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 259,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 5
+	},
+	"10": {
+		"code": "bath-mixt",
+		"name": "Grup sanitar B/F",
+		"lengthX": 3850,
+		"lengthY": 3660,
+		"icon": "toilet_room_icon.png",
+		"backgroundImage": "2d10.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 3850,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 93,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 3660,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 93,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 3660,
+				"stopX": 3850,
+				"stopY": 3660,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 93,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 2080,
+						"locationY": 3660,
+						"offsetZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 3850,
+				"startY": 0,
+				"stopX": 3850,
+				"stopY": 3660,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 93,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 1730,
+				"startY": 0,
+				"stopX": 1730,
+				"stopY": 2450,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 93,
+						"type": 3,
+						"side": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"6": {
+				"startX": 1730,
+				"startY": 2450,
+				"stopX": 2220,
+				"stopY": 2450,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 93,
+						"type": 3,
+						"side": 3,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"7": {
+				"startX": 2220,
+				"startY": 0,
+				"stopX": 2220,
+				"stopY": 2450,
+				"familyId": 3,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 93,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 21,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					},
+					"5": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"6": {
+						"wallId": 7,
+						"wallSide": 4
+					},
+					"7": {
+						"wallId": 6,
+						"wallSide": 3
+					},
+					"8": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					},
+					"5": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"6": {
+						"wallId": 7,
+						"wallSide": 4
+					},
+					"7": {
+						"wallId": 6,
+						"wallSide": 3
+					},
+					"8": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"furnitureOnFloor": {
+			"1": {
+				"familyId": 72,
+				"floorId": 1,
+				"faceId": 0,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 72,
+				"floorId": 1,
+				"faceId": 0,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 94,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 95,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"3": {
+				"familyId": 95,
+				"wallId": 4,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 284,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 254,
+				"type": 1,
+				"locationX": 3850,
+				"locationY": 1800,
+				"offsetZ": 2500,
+				"wallId": 4,
+				"angle": 0,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 254,
+				"type": 1,
+				"locationX": 3850,
+				"locationY": 1400,
+				"offsetZ": 2500,
+				"wallId": 4,
+				"angle": 0,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"11": {
+		"code": "parking-fork",
+		"name": "Parcare-electrostivuitor",
+		"lengthX": 20000,
+		"lengthY": 10000,
+		"icon": "parking.png",
+		"backgroundImage": "2d11.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 20000,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 32,
+						"locationX": 16000,
+						"locationY": 0,
+						"offsetZ": 0
+					},
+					"2": {
+						"familyId": 27,
+						"locationX": 1000,
+						"locationY": 0,
+						"offsetZ": 0
+					},
+					"3": {
+						"familyId": 271,
+						"locationX": 1000,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 272,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					},
+					"2": {
+						"familyId": 273,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 10000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 0,
+						"locationY": 5000,
+						"offsetZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 10000,
+				"stopX": 20000,
+				"stopY": 10000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 20000,
+				"startY": 0,
+				"stopX": 20000,
+				"stopY": 10000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 20000,
+						"locationY": 8000,
+						"offsetZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 5100,
+				"startY": 0,
+				"stopX": 5100,
+				"stopY": 10000,
+				"familyId": 5,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 2,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 31,
+						"locationX": 5100,
+						"locationY": 5000,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"6": {
+				"startX": 8000,
+				"startY": 0,
+				"stopX": 8000,
+				"stopY": 10000,
+				"familyId": 5,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 2,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 8000,
+						"locationY": 7000,
+						"offsetZ": 0
+					}
+				},
+				"electricals": {
+					"1": {
+						"familyId": 247,
+						"locationX": 8000,
+						"locationY": 6500,
+						"offsetZ": 300
+					}
+				},
+				"floors": {
+					"1": {
+						"familyId": 90,
+						"outline": {
+							"1": {
+								"wallId": 1,
+								"wallSide": 3
+							},
+							"2": {
+								"wallId": 2,
+								"wallSide": 4
+							},
+							"3": {
+								"wallId": 3,
+								"wallSide": 1
+							},
+							"4": {
+								"wallId": 5,
+								"wallSide": 2
+							}
+						}
+					},
+					"2": {
+						"familyId": 90,
+						"outline": {
+							"1": {
+								"wallId": 1,
+								"wallSide": 3
+							},
+							"2": {
+								"wallId": 5,
+								"wallSide": 4
+							},
+							"3": {
+								"wallId": 3,
+								"wallSide": 1
+							},
+							"4": {
+								"wallId": 6,
+								"wallSide": 2
+							}
+						}
+					},
+					"3": {
+						"familyId": 90,
+						"outline": {
+							"1": {
+								"wallId": 1,
+								"wallSide": 3
+							},
+							"2": {
+								"wallId": 6,
+								"wallSide": 4
+							},
+							"3": {
+								"wallId": 3,
+								"wallSide": 1
+							},
+							"4": {
+								"wallId": 4,
+								"wallSide": 2
+							}
+						}
+					}
+				},
+				"ceilings": {
+					"1": {
+						"startX": 0,
+						"startY": 0,
+						"width": 20000,
+						"height": 10000,
+						"familyId": 25
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 24,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 24,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 6,
+						"wallSide": 2
+					}
+				}
+			},
+			"3": {
+				"familyId": 24,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 6,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 6,
+						"wallSide": 2
+					}
+				}
+			},
+			"3": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 6,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 246,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 250,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 252,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"12": {
+		"code": "storage",
+		"name": "Magazie depozit",
+		"lengthX": 30700,
+		"lengthY": 12600,
+		"icon": "F11.png",
+		"backgroundImage": "2d12.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 30700,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 276,
+						"locationX": 16000,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 274,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					},
+					"2": {
+						"familyId": 275,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 12600,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 12600,
+				"stopX": 30700,
+				"stopY": 12600,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 30700,
+				"startY": 0,
+				"stopX": 30700,
+				"stopY": 12600,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 15350,
+				"startY": 0,
+				"stopX": 15350,
+				"stopY": 12600,
+				"familyId": 5,
+				"type": 3,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 3,
+						"side": 2,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 14,
+						"type": 3,
+						"side": 4,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 90,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 90,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		}
+	},
+	"13": {
+		"code": "reception",
+		"name": "Recepție-sală așteptare",
+		"lengthX": 7350,
+		"lengthY": 9000,
+		"icon": "reception.png",
+		"backgroundImage": "2d13.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 7350,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 91,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 16000,
+						"locationY": 0,
+						"offsetZ": 0
+					},
+					"2": {
+						"familyId": 281,
+						"locationX": 16000,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 277,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					},
+					"2": {
+						"familyId": 278,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					},
+					"3": {
+						"familyId": 279,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					},
+					"4": {
+						"familyId": 280,
+						"locationX": 10000,
+						"locationY": 0,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 9000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 91,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 9000,
+				"stopX": 7350,
+				"stopY": 9000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 91,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 7350,
+				"startY": 0,
+				"stopX": 7350,
+				"stopY": 9000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 91,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 2590,
+				"startY": 3080,
+				"stopX": 2590,
+				"stopY": 0,
+				"familyId": 9,
+				"type": 3,
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 2590,
+						"locationY": 1250,
+						"offsetZ": 0
+					}
+				},
+				"electricals": {
+					"1": {
+						"familyId": 247,
+						"locationX": 2590,
+						"locationY": 750,
+						"offsetZ": 300
+					}
+				}
+			},
+			"6": {
+				"startX": 0,
+				"startY": 3080,
+				"stopX": 2590,
+				"stopY": 3080,
+				"familyId": 9,
+				"type": 3
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 92,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 6,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 92,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 6,
+						"wallSide": 3
+					},
+					"4": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 6,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 6,
+						"wallSide": 3
+					},
+					"4": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 39,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 0,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 45,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 1200,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 45,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 1900,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 45,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 2600,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 39,
+				"sideX": 5,
+				"sideY": 1,
+				"offsetX": 0,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 53,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 200,
+				"offsetY": 110,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": true
+			},
+			"7": {
+				"familyId": 57,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 780,
+				"offsetY": 1620,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"8": {
+				"familyId": 57,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 1690,
+				"offsetY": 1620,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"9": {
+				"familyId": 41,
+				"sideX": 2,
+				"sideY": 6,
+				"offsetX": 400,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"10": {
+				"familyId": 48,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 60,
+				"offsetY": -100,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"11": {
+				"familyId": 51,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 115,
+				"offsetY": 115,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"12": {
+				"familyId": 54,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 847,
+				"offsetY": 200,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"13": {
+				"familyId": 64,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 2346,
+				"offsetY": 300,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"14": {
+				"familyId": 49,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 1570,
+				"offsetY": 1870,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"15": {
+				"familyId": 51,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 2800,
+				"offsetY": 200,
+				"offsetZ": 0,
+				"angle": 180,
+				"mirror": false
+			},
+			"16": {
+				"familyId": 50,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 1170,
+				"offsetY": 1670,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"17": {
+				"familyId": 51,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 3055,
+				"offsetY": 145,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"18": {
+				"familyId": 51,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 3004,
+				"offsetY": 2825,
+				"offsetZ": 0,
+				"angle": -180,
+				"mirror": false
+			},
+			"19": {
+				"familyId": 54,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 1526,
+				"offsetY": 60,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"20": {
+				"familyId": 54,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 2315,
+				"offsetY": 1525,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"21": {
+				"familyId": 50,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 1230,
+				"offsetY": 1595,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"22": {
+				"familyId": 49,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": -600,
+				"offsetY": 1540,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"23": {
+				"familyId": 64,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 150,
+				"offsetY": 50,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 97,
+				"wallId": 1,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 97,
+				"wallId": 2,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 259,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 248,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 5
+	},
+	"14": {
+		"code": "dorm-hallway",
+		"name": "Hol cămin",
+		"lengthX": 1750,
+		"lengthY": 20000,
+		"icon": "hall_fireplace.png",
+		"backgroundImage": "2d14.png",
+		"isGateway": true,
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 1750,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 282,
+						"locationX": 16000,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 20000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 20000,
+				"stopX": 1750,
+				"stopY": 20000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 1750,
+				"startY": 0,
+				"stopX": 1750,
+				"stopY": 20000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 92,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 259,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 285,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"15": {
+		"code": "apartment",
+		"name": "Apartament",
+		"lengthX": 7900,
+		"lengthY": 5330,
+		"icon": "apartment.png",
+		"backgroundImage": "2d15.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 7900,
+				"stopY": 0,
+				"familyId": 88,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 5330,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 5330,
+				"stopX": 7900,
+				"stopY": 5330,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 7500,
+						"locationY": 5330,
+						"offsetZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 7900,
+				"startY": 0,
+				"stopX": 7900,
+				"stopY": 5330,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"5": {
+				"startX": 3700,
+				"startY": 0,
+				"stopX": 3700,
+				"stopY": 5330,
+				"familyId": 10,
+				"type": 3,
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 3700,
+						"locationY": 1330,
+						"offsetZ": 0
+					}
+				},
+				"electricals": {
+					"1": {
+						"familyId": 247,
+						"locationX": 3700,
+						"locationY": 830,
+						"offsetZ": 300
+					}
+				}
+			},
+			"6": {
+				"startX": 3700,
+				"startY": 3230,
+				"stopX": 5700,
+				"stopY": 3230,
+				"familyId": 88,
+				"type": 3
+			},
+			"7": {
+				"startX": 5700,
+				"startY": 3230,
+				"stopX": 5700,
+				"stopY": 5330,
+				"familyId": 88,
+				"type": 3,
+				"doors": {
+					"1": {
+						"familyId": 27,
+						"locationX": 5700,
+						"locationY": 4000,
+						"offsetZ": 0
+					}
+				},
+				"electricals": {
+					"1": {
+						"familyId": 247,
+						"locationX": 5700,
+						"locationY": 3500,
+						"offsetZ": 300
+					}
+				}
+			},
+			"8": {
+				"startX": 3700,
+				"startY": 4480,
+				"stopX": 4000,
+				"stopY": 4480,
+				"familyId": 89,
+				"type": 3
+			},
+			"9": {
+				"startX": 4000,
+				"startY": 4480,
+				"stopX": 4000,
+				"stopY": 5330,
+				"familyId": 89,
+				"type": 3
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 87,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 87,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 6,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 7,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			},
+			"3": {
+				"familyId": 87,
+				"outline": {
+					"1": {
+						"wallId": 6,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 8,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 9,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 7,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 5,
+						"wallSide": 2
+					}
+				}
+			},
+			"2": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 6,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 7,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			},
+			"3": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallId": 6,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 5,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 8,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 9,
+						"wallSide": 4
+					},
+					"5": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"6": {
+						"wallId": 7,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 65,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 390,
+				"offsetY": 1350,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 65,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 390,
+				"offsetY": 1570,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": true
+			},
+			"3": {
+				"familyId": 42,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 30,
+				"offsetY": 30,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 42,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 630,
+				"offsetY": 30,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 42,
+				"sideX": 2,
+				"sideY": 3,
+				"offsetX": 1230,
+				"offsetY": 30,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 66,
+				"sideX": 5,
+				"sideY": 3,
+				"offsetX": -540,
+				"offsetY": -420,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"7": {
+				"familyId": 67,
+				"sideX": 5,
+				"sideY": 3,
+				"offsetX": -35,
+				"offsetY": 1800,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"8": {
+				"familyId": 58,
+				"sideX": 5,
+				"sideY": 6,
+				"offsetX": 30,
+				"offsetY": -1080,
+				"offsetZ": 0,
+				"angle": 270,
+				"mirror": false
+			},
+			"9": {
+				"familyId": 63,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 51,
+				"offsetY": 15,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"10": {
+				"familyId": 42,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 39,
+				"offsetY": 930,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"11": {
+				"familyId": 42,
+				"sideX": 4,
+				"sideY": 3,
+				"offsetX": 39,
+				"offsetY": 1530,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"12": {
+				"familyId": 67,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 39,
+				"offsetY": 1530,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"13": {
+				"familyId": 66,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 39,
+				"offsetY": 30,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"14": {
+				"familyId": 56,
+				"sideX": 4,
+				"sideY": 1,
+				"offsetX": 39,
+				"offsetY": 30,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"15": {
+				"familyId": 62,
+				"sideX": 5,
+				"sideY": 6,
+				"offsetX": 1600,
+				"offsetY": -1000,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			},
+			"16": {
+				"familyId": 55,
+				"sideX": 5,
+				"sideY": 6,
+				"offsetX": 25,
+				"offsetY": 25,
+				"offsetZ": 0,
+				"angle": 90,
+				"mirror": false
+			},
+			"17": {
+				"familyId": 44,
+				"sideX": 7,
+				"sideY": 3,
+				"offsetX": -80,
+				"offsetY": 210,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			}
+		},
+		"furnitureInWall": {
+			"1": {
+				"familyId": 97,
+				"wallId": 1,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			},
+			"2": {
+				"familyId": 97,
+				"wallId": 2,
+				"locationX": 0,
+				"locationY": 0,
+				"offsetZ": 0
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 259,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 248,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 5
+	},
+	"16": {
+		"code": "dress-hallway",
+		"name": "Hol vestiar",
+		"lengthX": 20700,
+		"lengthY": 3850,
+		"icon": "hallway.png",
+		"backgroundImage": "2d16.png",
+		"isGateway": true,
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 20700,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 3850,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 3850,
+				"stopX": 20700,
+				"stopY": 3850,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 20700,
+				"startY": 0,
+				"stopX": 20700,
+				"stopY": 3850,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 78,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 77,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 259,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 285,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"17": {
+		"code": "watchtower",
+		"name": "Foișor veghe",
+		"lengthX": 1500,
+		"lengthY": 1500,
+		"icon": "watchtower.png",
+		"backgroundImage": "2d17.png",
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 60,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 0,
+				"offsetY": 0,
+				"offsetZ": 0,
+				"angle": 0,
+				"mirror": false
+			}
+		}
+	},
+	"18": {
+		"code": "archive",
+		"name": "Arhivă",
+		"lengthX": 5360,
+		"lengthY": 4000,
+		"icon": "f08_archive.png",
+		"backgroundImage": "2d18.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 5360,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 68,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				},
+				"doors": {
+					"1": {
+						"familyId": 119,
+						"locationX": 16000,
+						"locationY": 0,
+						"offsetZ": 0
+					}
+				},
+				"windows": {
+					"1": {
+						"familyId": 283,
+						"locationX": 1950,
+						"locationY": 0,
+						"offsetZ": 1000
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 4000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 68,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 4000,
+				"stopX": 5360,
+				"stopY": 4000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 68,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 5360,
+				"startY": 0,
+				"stopX": 5360,
+				"stopY": 4000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 68,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 85,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 84,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"furnitureByPointAndLevel": {
+			"1": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 1020,
+				"offsetY": 1020,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 1970,
+				"offsetY": 1020,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 2920,
+				"offsetY": 1020,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 3870,
+				"offsetY": 1020,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 1020,
+				"offsetY": 1910,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"6": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 1970,
+				"offsetY": 1910,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"7": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 2920,
+				"offsetY": 1910,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			},
+			"8": {
+				"familyId": 52,
+				"sideX": 2,
+				"sideY": 1,
+				"offsetX": 3870,
+				"offsetY": 1910,
+				"offsetZ": 0,
+				"angle": -90,
+				"mirror": false
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 255,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 15
+	},
+	"19": {
+		"code": "staircase",
+		"name": "Casa scării",
+		"lengthX": 6850,
+		"lengthY": 6750,
+		"icon": "stairs.png",
+		"backgroundImage": "2d19.png",
+		"isGateway": true,
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 6850,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 82,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 6750,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 82,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 6750,
+				"stopX": 6850,
+				"stopY": 6750,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 82,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 6850,
+				"startY": 0,
+				"stopX": 6850,
+				"stopY": 6750,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 82,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 83,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallId": 1,
+						"wallSide": 3
+					},
+					"2": {
+						"wallId": 2,
+						"wallSide": 4
+					},
+					"3": {
+						"wallId": 3,
+						"wallSide": 1
+					},
+					"4": {
+						"wallId": 4,
+						"wallSide": 2
+					}
+				}
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 259,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		}
+	},
+	"20": {
+		"code": "empty-room",
+		"name": "Cameră goală",
+		"lengthX": 2000,
+		"lengthY": 2000,
+		"icon": "birou_37.png",
+		"backgroundImage": "2d1.png",
+		"walls": {
+			"1": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 2000,
+				"stopY": 0,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"2": {
+				"startX": 0,
+				"startY": 0,
+				"stopX": 0,
+				"stopY": 2000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"3": {
+				"startX": 0,
+				"startY": 2000,
+				"stopX": 2000,
+				"stopY": 2000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			},
+			"4": {
+				"startX": 2000,
+				"startY": 0,
+				"stopX": 2000,
+				"stopY": 2000,
+				"familyId": 5,
+				"type": 1,
+				"finishes": {
+					"1": {
+						"familyId": 17,
+						"type": 1,
+						"startZ": 0,
+						"stopZ": 0
+					},
+					"2": {
+						"familyId": 17,
+						"type": 2,
+						"startZ": 0,
+						"stopZ": 0
+					}
+				}
+			}
+		},
+		"floors": {
+			"1": {
+				"familyId": 22,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"ceilings": {
+			"1": {
+				"familyId": 26,
+				"outline": {
+					"1": {
+						"wallSide": 3,
+						"wallId": 1
+					},
+					"2": {
+						"wallSide": 4,
+						"wallId": 2
+					},
+					"3": {
+						"wallSide": 1,
+						"wallId": 3
+					},
+					"4": {
+						"wallSide": 2,
+						"wallId": 4
+					}
+				}
+			}
+		},
+		"electricals": {
+			"1": {
+				"familyId": 246,
+				"type": 1,
+				"angle": 90,
+				"mirror": false
+			},
+			"2": {
+				"familyId": 247,
+				"type": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"3": {
+				"familyId": 248,
+				"type": 2,
+				"locationX": 0,
+				"locationY": 500,
+				"offsetZ": 300,
+				"wallId": 2,
+				"angle": 90,
+				"mirror": false
+			},
+			"4": {
+				"familyId": 248,
+				"type": 2,
+				"locationX": 2000,
+				"locationY": 1500,
+				"offsetZ": 300,
+				"wallId": 4,
+				"angle": 270,
+				"mirror": false
+			},
+			"5": {
+				"familyId": 249,
+				"type": 3,
+				"angle": 90,
+				"mirror": false
+			}
+		},
+		"lightForSquareMeters": 5
+	}
+}

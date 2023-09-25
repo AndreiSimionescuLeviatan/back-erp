@@ -1,0 +1,2 @@
+# get project cronjobs for modules (every minute)
+* * * * * root bash /var/www/ecf-erp/console/scripts/get_modules_cron.sh >> /var/www/ecf-erp/console/logs/get_modules_cron.log

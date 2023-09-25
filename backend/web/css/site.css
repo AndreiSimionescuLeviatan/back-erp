@@ -1,0 +1,488 @@
+/*
+* Page title
+ */
+.content-header h1 {
+    font-size: 1.2rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*
+ * Breadcrumb
+ */
+.main-header.navbar .breadcrumb {
+    font-size: .85rem;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.content-header .breadcrumb {
+    font-size: .85rem;
+    line-height: 1.2rem;
+}
+
+/*
+* Required fields
+*/
+.required > .control-label:after {
+    content: ' *';
+    color: #dc3545;
+}
+
+/*
+* Fields validation error
+ */
+
+.has-error .form-control {
+    border-color: #dc3545;
+    padding-right: 2.25rem;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+.has-error > .invalid-feedback,
+.has-error > .invalid-tooltip,
+.was-validated :invalid ~ .invalid-feedback,
+.was-validated :invalid ~ .invalid-tooltip {
+    display: block;
+    left: 7.5px;
+}
+
+/**
+Left sidebar
+ */
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.sidebar nav > ul > li:last-of-type {
+    margin-bottom: 50px;
+}
+
+.sidebar-collapse .main-sidebar-with-footer:hover .hide-on-sidebar-mini {
+    display: block;
+}
+
+.sidebar-collapse .main-sidebar-with-footer .hide-on-sidebar-mini {
+    display: none;
+}
+
+.design-logo,
+.sidebar-collapse .main-sidebar-with-footer:hover .design-logo {
+    height: 30px;
+}
+
+.sidebar-collapse .main-sidebar-with-footer .design-logo {
+    height: 18px;
+}
+
+/**
+Sidebar Footer
+*/
+.layout-fixed .main-sidebar-with-footer {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: -ms-stretch;
+    height: stretch;
+}
+
+[class*=sidebar-dark] .sidebar-footer {
+    border-top: 1px solid #4f5962;
+}
+
+.layout-fixed .main-sidebar-with-footer .sidebar {
+    height: calc(100% - ((4.5rem + 2rem) + 1px));
+}
+
+.layout-fixed .main-sidebar-with-footer .sidebar-footer {
+    height: 3rem;
+    padding: 0.5rem 0.5rem;
+    /*line-height: 14px;*/
+    text-align: center;
+}
+
+.main-sidebar-with-footer .sidebar-footer {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .4) !important;
+}
+
+/**
+END Sidebar Footer
+*/
+/**
+Home page
+ */
+.home-page-wrapper {
+    background: url("/images/home_bg.svg") no-repeat center bottom;
+}
+
+.home-nav-btn {
+    width: 170px;
+    height: 170px;
+    border: 3px solid #3D7AA8;
+    border-radius: 50%;
+    background-color: #d7dff0;
+}
+
+.home-nav-btn:hover {
+    background-color: #b1bfda;
+}
+
+.home-nav-btn > .fa,
+.home-nav-btn > .fab,
+.home-nav-btn > .fad,
+.home-nav-btn > .fal,
+.home-nav-btn > .far,
+.home-nav-btn > .fas,
+.home-nav-btn > .ion,
+.home-nav-btn > .svg-inline--fa {
+    color: #194866;
+    display: block;
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.home-nav-btn > span {
+    background-color: #3D7AA8;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 5px 20px;
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+}
+
+.home-nav-btn > span:hover {
+    color: #3D7AA8;
+    background-color: #fff;;
+}
+
+/*floating header section*/
+.floating-header-section {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.floating-header-section :not(:last-child):after {
+    content: '';
+    background-color: #ddd;
+    position: absolute;
+    width: 1px;
+    height: 35px;
+    right: 0;
+    top: -5px;
+}
+
+.checkbox-nr-section {
+    width: auto;
+    max-width: 70px;
+}
+
+.order-nr-section {
+    width: auto;
+    max-width: 40px;
+}
+
+.code-section {
+    width: auto;
+    max-width: 100px;
+}
+
+.ptde-q-section,
+.basic-q-section,
+.necessary-q-section {
+    max-width: 125px;
+}
+
+.measure-unit-section {
+    width: auto;
+    max-width: 70px;
+}
+
+.package-section {
+    max-width: 200px;
+}
+
+.actions-section {
+    width: auto;
+    max-width: 64px;
+}
+
+.observation-section {
+    width: auto;
+    max-width: 220px;
+}
+
+/*filters width*/
+.filter-article-by-code-section,
+.filter-equipment-by-code-section {
+    width: 205px;
+}
+
+/*filters width*/
+.filter-article-by-package-section,
+.filter-equipment-by-package-section {
+    width: 195px;
+}
+
+/*on small screen size reduce the width of filters*/
+@media screen and (max-width: 900px) {
+    .filter-article-by-code-section,
+    .filter-equipment-by-code-section {
+        width: 100px;
+    }
+
+    .filter-article-by-package-section,
+    .filter-equipment-by-package-section {
+        width: 90px;
+    }
+}
+
+.bg-color-package {
+    background-color: #f8f8ff
+}
+
+.bg-color-selected {
+    background-color: #c5dbce !important;
+}
+
+.bg-color-success {
+    background-color: #ffc107;
+}
+
+.bg-color-has-package {
+    background-color: #5cb85c;
+}
+
+.bg-color-danger {
+    background-color: #d9534f;
+}
+
+.quantity-list-data {
+    position: sticky;
+    top: 0;
+    margin-top: 8px;
+    z-index: 10;
+}
+
+.quantity-list-data .list-details span,
+.centralizer-article-data .list-details span {
+    font-weight: 600;
+}
+
+#card-multiple-changes-package {
+    background-color: #ffc107;
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+}
+
+.multiple-changes-package {
+    display: none;
+}
+
+/*used to fit label to parent cell on various pages like document index*/
+.match-parent-size-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin-bottom: 0;
+}
+
+/*
+QUICK FIX FOR SELECT 2
+The problem appeared after updating kartik\select2 from 2.2.2 to 2.2.3
+No other solution found for the moment
+*/
+.select2-container--krajee-bs4 .select2-selection--multiple .select2-selection__choice {
+    float: left;
+}
+
+/**
+hide grid view filter error message on all pages
+ */
+.filters .has-error .help-block {
+    display: none;
+}
+
+#app-preloader {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f4f6f9;
+    height: 100vh;
+    /*opacity: 1;*/
+    width: 100%;
+    /*transition: opacity .2s linear;*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.common-error-message .modal-body,
+.error-message .modal-header {
+    background-color: #dc3545;
+    color: white;
+}
+
+.common-danger-message .modal-body,
+.error-message .modal-header {
+    background-color: #F7B635;
+    color: black;
+}
+
+/* Do not show arrows for input type number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* The info icon position when some entities are deleted in any index and view pages */
+.info_icon_for_deleted_entities_index,
+.info_icon_for_deleted_entities_view {
+    position: relative;
+}
+
+.info_icon_for_deleted_entities_index i {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.info_icon_for_deleted_entities_view i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.scroll_grid_view_columns {
+    overflow-y: auto;
+    max-height: 120px
+}
+
+/* x icon from select 2 move by 10 px to left */
+.select2-selection__rendered .select2-selection__clear {
+    padding-right: 10px;
+}
+
+.display-buttons-save-activate {
+    display: none;
+}
+
+/*Make a button/label/text... look like a link*/
+.look-like-link {
+    color: #007bff;
+    background-color: transparent;
+}
+
+/*Make a button/label/text... look like a link*/
+.look-like-link:hover {
+    color: #0056c3;
+}
+
+/*make a checkbox look and behave like a toggle*/
+/*toggle position*/
+.personalized-toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+/*make a checkbox look and behave like a toggle*/
+/*toggle slider characteristics*/
+.personalized-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    background-color: #dc3545;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+/*make a checkbox look and behave like a toggle*/
+/*toggle slider characteristics*/
+.personalized-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 2px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+/*make a checkbox look and behave like a toggle*/
+/*toggle color if it is checked*/
+input:checked + .personalized-toggle-slider {
+    background-color: #28a745;
+}
+
+/*make a checkbox look and behave like a toggle*/
+/*toggle movement*/
+input:checked + .personalized-toggle-slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
+}
+
+/* Will use it to create a small modal window with list of objects for specific estimate and specific article/equipment */
+/* Well use it in few pages like: centralizer-article, centralizer-equipment, centralizer-fitting, centralizer-features */
+.modal-window-objects-info {
+    position: absolute;
+    background-color: white;
+    width: auto !important;
+    max-height: 180px;
+    z-index: 10000;
+    overflow-y: auto;
+}
+
+.hover-pointer:hover {
+    cursor: pointer;
+}
+
+#objects_codes_list div:nth-child(odd) {
+    background-color: #E8E9EC;
+}
+
+/* Here will be a style for an icon that will hide or show some columns in a table */
+/* Well use it in few pages like: centralizer-article, centralizer-equipment, centralizer-fitting, centralizer-features */
+.hide-show-columns-icon {
+    position: absolute;
+    right: 3%;
+    top: 43%;
+    color: green;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+

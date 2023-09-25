@@ -1,0 +1,3637 @@
+{
+	"-3": {
+		"name": "Compound Ceiling",
+		"type": "<Fără>",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3
+	},
+	"-2": {
+		"name": "Floor",
+		"type": "<Fără>",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1
+	},
+	"-1": {
+		"name": "Stacked Walls",
+		"type": "<Fără>",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1
+	},
+	"1": {
+		"name": "Basic Wall",
+		"type": "INT_G_GK3 2xRB+ISO+CW/UW 75/600+2xRB_125 EI60",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"2": {
+		"name": "Basic Wall",
+		"type": "INT_G_GK8 1xRBI+1xRB+ISO+CW/UW 75/600+1xRB+1xRBI_125",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"3": {
+		"name": "Basic Wall",
+		"type": "INT_G_GK4 1xRBI+1xRB+ISO+CW/UW 75/600+2xRB_125 EI60",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"4": {
+		"name": "Basic Wall",
+		"type": "INT_G_GK5 1xRBI+1xRB+ISO+CW/UW 100/600+1xRB+1xRBI_150",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"5": {
+		"name": "Basic Wall",
+		"type": "EXT_M_PROPUS_BRICK-30cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 2,
+		"width": 300,
+		"details": {}
+	},
+	"6": {
+		"name": "Basic Wall",
+		"type": "EXT_M_PROPUS_BRICK_25cm",
+		"file": "",
+		"placement": "walls",
+		"width": 250,
+		"placementType": 2
+	},
+	"7": {
+		"name": "Basic Wall",
+		"type": "EXT_M_PROPUS_BRICK-30_GBO1.25_33cm 2",
+		"file": "",
+		"placement": "walls",
+		"width": 300,
+		"placementType": 2
+	},
+	"8": {
+		"name": "Basic Wall",
+		"type": "EXT_M_BRI37.5_37.5cm",
+		"file": "",
+		"placement": "walls",
+		"width": 374,
+		"placementType": 2
+	},
+	"9": {
+		"name": "Basic Wall",
+		"type": "INT_GP_12.5cm GBO3x1.25-CW100-GBO3x1.25 EI150",
+		"file": "",
+		"placement": "walls",
+		"width": 176,
+		"placementType": 3
+	},
+	"10": {
+		"name": "Basic Wall",
+		"type": "INT_GP_15cm GBO2x1.25-CW10-GBO2x1.25- EI90-4",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 151,
+		"details": {}
+	},
+	"11": {
+		"name": "Basic Wall",
+		"type": "INT_GP_20cm GBO2x1.25-CW2x7.5-GBO2x1.25--1xREZ.UM-EI30-2",
+		"file": "",
+		"placement": "walls",
+		"placementType": 3,
+		"width": 201
+	},
+	"12": {
+		"name": "Basic Wall",
+		"type": "INT_GP_20cm GBO2x1.25-CW2x7.5-GBO2x1.25--2xREZ.APA 3",
+		"file": "",
+		"placement": "walls",
+		"placementType": 3,
+		"width": 201
+	},
+	"13": {
+		"name": "Stacked Walls",
+		"type": "INT_F_PLA_LAV-MDF plinta",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 10
+	},
+	"14": {
+		"name": "Stacked Walls",
+		"type": "INT_F_PLA0.5-PLA0.5-LAV-0.5_1.5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 17,
+		"details": {}
+	},
+	"15": {
+		"name": "Stacked Walls",
+		"type": "INT_F_LAV10-EPOX10_20",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 10
+	},
+	"16": {
+		"name": "Stacked Walls",
+		"type": "INT_F_CTI_PLA_PLA_LAV",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 40
+	},
+	"17": {
+		"name": "Stacked Walls",
+		"type": "INT_F_PLA_LAV-CTI10",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 2,
+		"width": 20,
+		"details": {}
+	},
+	"18": {
+		"name": "Stacked Walls",
+		"type": "INT_F_PLA_LAV gri-CTI10",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 2,
+		"width": 20
+	},
+	"19": {
+		"name": "Stacked Walls",
+		"type": "INT_F_PLA_LAV albastra-CTI10",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 2,
+		"width": 20
+	},
+	"20": {
+		"name": "Stacked Walls",
+		"type": "INT_F_LAV10-CTI15_15cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 2,
+		"width": 15
+	},
+	"21": {
+		"name": "Floor",
+		"type": "INT_G_Gresie Antiderap. 1.2 cm + Hidro + sapa5.8 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"22": {
+		"name": "Floor",
+		"type": "INT_P_Parchet 1 cm + sapa 6 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"23": {
+		"name": "Floor",
+		"type": "INT_E_Pardoseala PVC + sapa 7 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"24": {
+		"name": "Floor",
+		"type": "planseu ba 15cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"25": {
+		"name": "Floor",
+		"type": "Generic 70 mm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"26": {
+		"name": "Compound Ceiling",
+		"type": "INT_G_Plafon GK rez um",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 62.5,
+		"details": {}
+	},
+	"27": {
+		"name": "INT Usa metalica un canat",
+		"type": "850 x 2100mm UL3",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 850,
+		"details": {}
+	},
+	"28": {
+		"name": "EXT Usa metalica un canat+2 grile transfer",
+		"type": "UE03_ 1000 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1000,
+		"details": {}
+	},
+	"29": {
+		"name": "Doors_Industrial_Loading-Systems_Sectional-Overhead-Door_Standard-Lift_40mm",
+		"type": "5000 x 3500 mm + Pietonal",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 5000,
+		"height": 3500,
+		"details": {}
+	},
+	"30": {
+		"name": "EXT Fereastra un canat",
+		"type": "1000X1400 FE01",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1000,
+		"details": {}
+	},
+	"31": {
+		"name": "Window-Casement-Double",
+		"type": "48\" x 60\"",
+		"file": "",
+		"placement": "windows",
+		"placementType": 2,
+		"width": 1211,
+		"details": {}
+	},
+	"32": {
+		"name": "EXT Usa sectionala",
+		"type": "3050x3660 mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 4000,
+		"details": {}
+	},
+	"33": {
+		"name": "Cabinet - Storage",
+		"type": "600 x 450 x 2100mm",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 450,
+		"length": 600,
+		"details": {}
+	},
+	"34": {
+		"name": "Locker_parametric_17375",
+		"type": "SFH Single Tier Athletic Locker",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 914.4,
+		"length": 762,
+		"details": {}
+	},
+	"35": {
+		"name": "workplace_13633",
+		"type": "160x80",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 1720,
+		"length": 1600,
+		"details": {}
+	},
+	"36": {
+		"name": "F3235 - Rack, Hat-Coat, Floor Standing (1)",
+		"type": "F3235 - Rack, Hat-Coat, Floor Standing (1)",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 310,
+		"length": 310,
+		"details": {}
+	},
+	"37": {
+		"name": "Sanitary_Taps&Mixers_Ideal-Standard_Hotline_K2748_BIM_DE",
+		"type": "K274801 HOTLINE NEU rectangular bath tub 1800x800mm",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 1800,
+		"length": 800,
+		"details": {}
+	},
+	"38": {
+		"name": "sink_baie_cada",
+		"type": "sink_baie_cada",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 581,
+		"length": 498,
+		"details": {}
+	},
+	"39": {
+		"name": "Cabinet - Storage",
+		"type": "1200 x 550 x 2100mm",
+		"file": "",
+		"placement": "furniture1",
+		"width": 1200,
+		"length": 550,
+		"details": {}
+	},
+	"40": {
+		"name": "Locker-Personal_Storage-Spacesaver-Single_Door-Bench_Drawer",
+		"type": "18 x 24 x 90",
+		"file": "",
+		"placement": "furniture1",
+		"width": 457,
+		"length": 943,
+		"details": {}
+	},
+	"41": {
+		"name": "Sanitary_Waste-Bins_Jofel_4-Units-bin-for-recycling",
+		"type": "4 Units bin for recycling",
+		"file": "",
+		"placement": "furniture1",
+		"width": 1000,
+		"length": 373,
+		"details": {}
+	},
+	"42": {
+		"name": "Cabinet - Storage",
+		"type": "600 x 600 x 2100mm",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 600,
+		"length": 600,
+		"details": {}
+	},
+	"43": {
+		"name": "Furniture_System-Standing_Desk-Rectangular",
+		"type": "60\" x 24\"",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 1530,
+		"length": 610,
+		"details": {}
+	},
+	"44": {
+		"name": "737",
+		"type": "737",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 300,
+		"length": 380,
+		"details": {}
+	},
+	"45": {
+		"name": "Cabinet File - Lateral 5 Drawer",
+		"type": "740 x 500 x 1520mm",
+		"file": "",
+		"placement": "furniture1",
+		"width": 700,
+		"length": 500,
+		"details": {}
+	},
+	"46": {
+		"name": "Bed-Bunk",
+		"type": "82\" x 36\"",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 920,
+		"length": 2090,
+		"details": {}
+	},
+	"47": {
+		"name": "Modern-Beds_1592_right",
+		"type": "90X210",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 900,
+		"length": 2100,
+		"details": {}
+	},
+	"48": {
+		"name": "A_safe_Una_caja_fuerte_12314",
+		"type": "A_safe_Una_caja_fuerte_12314",
+		"file": "",
+		"placement": "furniture1",
+		"width": 600,
+		"length": 791,
+		"details": {}
+	},
+	"49": {
+		"name": "Boxplay_Three_Seat_Sofa__-_HighTower_13287",
+		"type": "Boxplay_Three_Seat_Sofa__-_HighTower_13287",
+		"file": "",
+		"placement": "furniture1",
+		"width": 2521,
+		"length": 1003,
+		"details": {}
+	},
+	"50": {
+		"name": "Coffee_table_14874",
+		"type": "Coffee_table_14874",
+		"file": "",
+		"placement": "furniture1",
+		"width": 1311,
+		"length": 720,
+		"details": {}
+	},
+	"51": {
+		"name": "tendence_cube_1",
+		"type": "Colour - (Black)",
+		"file": "",
+		"placement": "furniture1",
+		"width": 550,
+		"length": 550,
+		"details": {}
+	},
+	"52": {
+		"name": "Furniture_Shelving-Storage_Modus-Furniture_Meta-001",
+		"type": "Default",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 300,
+		"length": 880,
+		"details": {}
+	},
+	"53": {
+		"name": "GenericReceptionDesk",
+		"type": "GenericReceptionDesk",
+		"file": "",
+		"placement": "furniture1",
+		"width": 3685,
+		"length": 2540,
+		"details": {}
+	},
+	"54": {
+		"name": "HighTower_Boxplay_Lounge",
+		"type": "HighTower_Boxplay_Lounge",
+		"file": "",
+		"placement": "furniture1",
+		"width": 1378,
+		"length": 1000,
+		"details": {}
+	},
+	"55": {
+		"name": "K-1592_Puebla_32_inch_Shower_Module_1281",
+		"type": "K-1592_Puebla_32_inch_Shower_Module_1281",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 0,
+		"length": 902,
+		"details": {}
+	},
+	"56": {
+		"name": "MASA TELEVIZOR",
+		"type": "MASA TELEVIZOR",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 600,
+		"length": 1500,
+		"details": {}
+	},
+	"57": {
+		"name": "M_Chair-Task (Arms)",
+		"type": "M_Chair-Task (Arms)",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 636,
+		"length": 530,
+		"details": {}
+	},
+	"58": {
+		"name": "Modern_Couch_3579",
+		"type": "Modern_Couch_3579",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 0,
+		"length": 900,
+		"details": {}
+	},
+	"59": {
+		"name": "Office_desk_18124",
+		"type": "Office_desk_18124",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 600,
+		"length": 1500,
+		"details": {}
+	},
+	"60": {
+		"name": "M_Porta-John",
+		"type": "Porta-John",
+		"file": "",
+		"placement": "furniture1",
+		"width": 1500,
+		"length": 1500,
+		"details": {}
+	},
+	"61": {
+		"name": "Refrigerator_10161",
+		"type": "Refrigerator_10161",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 620,
+		"length": 600,
+		"details": {}
+	},
+	"62": {
+		"name": "Table_-_Conic_11620",
+		"type": "Table_-_Conic_11620",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 0,
+		"length": 0,
+		"details": {}
+	},
+	"63": {
+		"name": "some_furniture_18208",
+		"type": "some_furniture_18208",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 385,
+		"length": 900,
+		"details": {}
+	},
+	"64": {
+		"name": "tendence_high",
+		"type": "Colour - (Black)",
+		"file": "",
+		"placement": "furniture1",
+		"width": 335,
+		"length": 335,
+		"details": {}
+	},
+	"65": {
+		"name": "Modern-Beds_1592",
+		"type": "90X210",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 900,
+		"length": 2100,
+		"details": {}
+	},
+	"66": {
+		"name": "Office_desk_18124",
+		"type": "MASA DE TOALETA/SCRIS",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 600,
+		"length": 1500,
+		"details": {}
+	},
+	"67": {
+		"name": "MASA TELEVIZOR",
+		"type": "Office_desk_18124",
+		"file": "",
+		"placement": "furniture1",
+		"placementType": 1,
+		"width": 600,
+		"length": 1500,
+		"details": {}
+	},
+	"68": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-1.5cm_PLA1.5",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 2,
+		"width": 16,
+		"details": {}
+	},
+	"69": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-1.5cm_PLA1.5+PAI",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 17,
+		"details": {}
+	},
+	"70": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-2.5cm_PLA1.5+EPOX1",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 2,
+		"width": 26,
+		"details": {}
+	},
+	"71": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-3cm_PLA1.5+CTI1.5",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 2,
+		"width": 31,
+		"details": {}
+	},
+	"72": {
+		"name": "BM-00370_LPT241",
+		"type": "LPT241",
+		"file": "",
+		"placement": "furniture2",
+		"width": 581,
+		"length": 498,
+		"details": {}
+	},
+	"73": {
+		"name": "Mediclinics_Vertical stainless steel swing grab bar_BG0900x",
+		"type": "BG0900C",
+		"file": "",
+		"placement": "furniture3",
+		"width": 100,
+		"length": 738,
+		"details": {}
+	},
+	"74": {
+		"name": "Basic Wall",
+		"type": "INT_F_TC1.5-LAV_1.5cm",
+		"file": "",
+		"placement": "finishes",
+		"width": 15,
+		"details": {}
+	},
+	"75": {
+		"name": "Floor",
+		"type": "Planseu BA 15 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 2,
+		"width": 150,
+		"details": {}
+	},
+	"76": {
+		"name": "Floor",
+		"type": "INT_G_Gresie Antiderap. 1.2 cm + sapa3.8 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 2,
+		"width": 50,
+		"details": {}
+	},
+	"77": {
+		"name": "Compound Ceiling",
+		"type": "Plafon casetat 600x600",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 57,
+		"details": {}
+	},
+	"78": {
+		"name": "Floor",
+		"type": "INT_G_Gresie 2 cm + sapa 5 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"79": {
+		"name": "Compound Ceiling",
+		"type": "INT_G_Plafon GK RF",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 62.5,
+		"details": {}
+	},
+	"80": {
+		"name": "Stacked Walls",
+		"type": "INT_F_PLA_PLA_LAV-CTI10",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 40,
+		"details": {}
+	},
+	"81": {
+		"name": "Basic Wall",
+		"type": "INT_F_HIDRO_TILE",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"82": {
+		"name": "Basic Wall",
+		"type": "INT_G_ADV2-GBO1.25_3.25cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 34,
+		"details": {}
+	},
+	"83": {
+		"name": "Floor",
+		"type": "Planseu BA 17 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 2,
+		"width": 170,
+		"details": {}
+	},
+	"84": {
+		"name": "Compound Ceiling",
+		"type": "WIP_Tencuiala pe BA",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 15,
+		"details": {}
+	},
+	"85": {
+		"name": "Floor",
+		"type": "INT_EPX-6cm_EPX2+SRF4",
+		"file": "",
+		"placement": "floors",
+		"placementType": 2,
+		"width": 60,
+		"details": {}
+	},
+	"86": {
+		"name": "Stacked Walls",
+		"type": "INT_F_HIDRO_CTI",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20
+	},
+	"87": {
+		"name": "Floor",
+		"type": "Generic - 12\"",
+		"file": "",
+		"placement": "floors",
+		"placementType": 2,
+		"width": 304.8,
+		"details": {}
+	},
+	"88": {
+		"name": "Basic Wall",
+		"type": "INT_GP_12.5cm GBO2x1.25-CW100-GBO2x1.25_1xREZ.UM-9",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 151,
+		"details": {}
+	},
+	"89": {
+		"name": "Basic Wall",
+		"type": "INT_GP_5.5cm GBO2x1.25-CW30-REZ.UM-11",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 56,
+		"details": {}
+	},
+	"90": {
+		"name": "Floor",
+		"type": "INT_F_CSS4-TIL4_5cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 2,
+		"width": 50,
+		"details": {}
+	},
+	"91": {
+		"name": "Basic Wall",
+		"type": "INT_G_-GBO1.25-12",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 14,
+		"details": {}
+	},
+	"92": {
+		"name": "Floor",
+		"type": "Sapa armata+finisaj Propunere 10cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 2,
+		"width": 100,
+		"details": {}
+	},
+	"93": {
+		"name": "Basic Wall",
+		"type": "INT_F_TILE",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"94": {
+		"name": "Mirror-",
+		"type": "600x760mm",
+		"file": "",
+		"placement": "furniture4",
+		"width": 20,
+		"length": 2000,
+		"details": {}
+	},
+	"95": {
+		"name": "Floorstanding WC  - Laufen Pro - Laufen - 822951",
+		"type": "White - Laufen Pro - Laufen",
+		"file": "",
+		"placement": "furniture4",
+		"width": 360,
+		"length": 580,
+		"details": {}
+	},
+	"96": {
+		"name": "Sanitary_Basins_Deante_Vital-wall-mounted-washbasin-for-the-dis",
+		"type": "Sanitary_Basins_Deante_Vital-wall-mounted-washbasin-for-the-dis",
+		"file": "",
+		"placement": "furniture3",
+		"width": 0,
+		"length": 0,
+		"details": {}
+	},
+	"97": {
+		"name": "Television_Panasonic_54quot_Plasma_Wall_Mounted_10523",
+		"type": "Television_Panasonic_54quot_Plasma_Wall_Mounted_10523",
+		"file": "",
+		"placement": "furniture3",
+		"width": 100,
+		"length": 1320,
+		"details": {}
+	},
+	"98": {
+		"name": "EXT Fereastra un canat",
+		"type": "600X600",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 600,
+		"height": 600,
+		"details": {}
+	},
+	"99": {
+		"name": "Window_Matrix 70_Side Hung Next to Fixed_Veka_Triple Glazing_Outward Opening_Frame 80mm_Mullion 82Z",
+		"type": "Window_Matrix 70_Side Hung Next to Fixed_Veka_Triple Glazing_Outward Opening_Frame 80mm_Mullion 82Z  160X120",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1600,
+		"height": 1200,
+		"details": {}
+	},
+	"100": {
+		"name": "Door_Hatch_Watertight_WalzKrenzer_WTH-R-Rect",
+		"type": "Power Operated Both Sides",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1000,
+		"height": 1000,
+		"details": {}
+	},
+	"101": {
+		"name": "LEV_Grilaj adaptativ",
+		"type": "Grilaj G12b 160x120cm",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1600,
+		"height": 1240,
+		"details": {}
+	},
+	"102": {
+		"name": "LEV_Grilaj adaptativ",
+		"type": "Grilaj G12b 60X60cm",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 600,
+		"height": 600,
+		"details": {}
+	},
+	"103": {
+		"name": "LEV_Grilaj adaptativ",
+		"type": "Grilaj G12b 100x210",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1000,
+		"height": 2100,
+		"details": {}
+	},
+	"104": {
+		"name": "Floor",
+		"type": "EXT_F_GRANIT-1,5cm+GLU-1,5cm 2",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"105": {
+		"name": "Floor",
+		"type": "EXT_inchidere iesiri tubulaturi",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 270,
+		"details": {}
+	},
+	"106": {
+		"name": "Floor",
+		"type": "EXT_terasa necirc 2xhidr+ ssa7cm+p extr15cm+dif 3",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 330,
+		"details": {}
+	},
+	"107": {
+		"name": "Floor",
+		"type": "EXT_vm-8cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 80,
+		"details": {}
+	},
+	"108": {
+		"name": "Floor",
+		"type": "INT_F_CTI-1,5cm+GLU-1,5cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"109": {
+		"name": "Floor",
+		"type": "INT_F_EPOX",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"110": {
+		"name": "Floor",
+		"type": "INT_F_EPOX ANTISTATIC",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"111": {
+		"name": "Floor",
+		"type": "INT_F_LIN-0,5cm+GLU-0,5cm+CSS-2cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"112": {
+		"name": "Floor",
+		"type": "REZ_BA-7.5cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 75,
+		"details": {}
+	},
+	"113": {
+		"name": "Floor",
+		"type": "WIP_planseu podest rutier ba",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 491,
+		"details": {}
+	},
+	"114": {
+		"name": "Compound Ceiling",
+		"type": "SIBIU_INT_GK_CAS-6.25cm_MET50+CAS12.5",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 62.5,
+		"details": {}
+	},
+	"115": {
+		"name": "Compound Ceiling",
+		"type": "SIBIU_INT_GK-LIS-6.25cm_MET50+GK12.5",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 62.5,
+		"details": {}
+	},
+	"116": {
+		"name": "Compound Ceiling",
+		"type": "SIBIU_INT_GK-LIS-6.25cm_MET50+GK12.5 RU",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 62.5,
+		"details": {}
+	},
+	"117": {
+		"name": "EXT Panou usa vitrata 2 canaturi + 2 luminatoare laterale fixe+ supralumina",
+		"type": "2350x2500",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 2250,
+		"height": 2500,
+		"details": {}
+	},
+	"118": {
+		"name": "EXT Panou usa vitrata 2 canaturi + 2 luminatoare laterale fixe+ supralumina",
+		"type": "2350x2500 ext",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 2250,
+		"height": 2500,
+		"details": {}
+	},
+	"119": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"120": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UP-c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"121": {
+		"name": "INT Usa metalica un canat",
+		"type": "1000 x 2100mm UEI60-c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 1000,
+		"height": 2100,
+		"details": {}
+	},
+	"122": {
+		"name": "INT Usa metalica un canat",
+		"type": "700 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 700,
+		"height": 2100,
+		"details": {}
+	},
+	"123": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UEI90",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"124": {
+		"name": "INT Usa metalica un canat",
+		"type": "1000 x 2100mm EI45",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 1000,
+		"height": 2100,
+		"details": {}
+	},
+	"125": {
+		"name": "INT Usa metalica un canat",
+		"type": "1000 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 1000,
+		"height": 2100,
+		"details": {}
+	},
+	"126": {
+		"name": "INT Usa metalica un canat",
+		"type": "1000 x 2100mm EI45 2",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 1000,
+		"height": 2100,
+		"details": {}
+	},
+	"127": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UP-c EXT",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"128": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UP-c U13",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"129": {
+		"name": "Basic Wall",
+		"type": "EXT_BCA-EI240-30cm_BCA30",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"130": {
+		"name": "Basic Wall",
+		"type": "EXT_BCA-EI240-30cm_BCA30 EI120",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"131": {
+		"name": "Basic Wall",
+		"type": "EXT_BETON-20cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"132": {
+		"name": "Basic Wall",
+		"type": "EXT_EI15_PLA-1.5cm PLA+10cmVM_11.5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 115,
+		"details": {}
+	},
+	"133": {
+		"name": "Basic Wall",
+		"type": "EXT_INSexp-5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"134": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-1,5cm_GREY",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 15,
+		"details": {}
+	},
+	"135": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-1.6cm_PLA1.5+PAI0.1",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 16,
+		"details": {}
+	},
+	"136": {
+		"name": "Basic Wall",
+		"type": "FIN_TENC+FAI-3.5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 35,
+		"details": {}
+	},
+	"137": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-20cm_1xBCA20",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"138": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-20cm_1xBCA20 EI120",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"139": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-20cm_1xBCA20 EI150",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"140": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-20cm_1xBCA20 EI180",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"141": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-20cm_1xBCA20_EI60",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"142": {
+		"name": "Basic Wall",
+		"type": "INT_GK-2cm_PLY-2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"143": {
+		"name": "Basic Wall",
+		"type": "INT_GK_7.5_GK-2.5cm_PLY-5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 75,
+		"details": {}
+	},
+	"144": {
+		"name": "Basic Wall",
+		"type": "INT_GK_ RU(2 FETE)_12.5cm_2 x RBI+MET75+INSmw+ 2 x RBI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"145": {
+		"name": "Basic Wall",
+		"type": "INT_GK_ Scafa GK",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 62.5,
+		"details": {}
+	},
+	"146": {
+		"name": "Basic Wall",
+		"type": "INT_HPL 1,2cm_1xHPL1,2",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 12,
+		"details": {}
+	},
+	"147": {
+		"name": "Basic Wall",
+		"type": "INT_INSpn-5.0cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"148": {
+		"name": "Basic Wall",
+		"type": "INT_INSpn-5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"149": {
+		"name": "Basic Wall",
+		"type": "INT_VM10cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"150": {
+		"name": "Basic Wall",
+		"type": "INT_VM15cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"151": {
+		"name": "Fereastra exterior",
+		"type": "600X600",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 600,
+		"height": 600,
+		"details": {}
+	},
+	"152": {
+		"name": "Floor",
+		"type": "EXT_vm-10cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"153": {
+		"name": "Floor",
+		"type": "REZ_BA-15cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"154": {
+		"name": "Floor",
+		"type": "WIP_pardos epox de ext",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"155": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UEI60-c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"156": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UP-c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"157": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UEI30-c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 2,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"158": {
+		"name": "Basic Wall",
+		"type": "EXT_VM-10cm_VM10CM_10cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"159": {
+		"name": "Basic Wall",
+		"type": "INT_GK-10cm_RBI+RBI+MET50+RBI+RBI",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"160": {
+		"name": "EXT Fereastra un canat1",
+		"type": "F 1 800 x 1000",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 800,
+		"height": 1000,
+		"details": {}
+	},
+	"161": {
+		"name": "fereastra 2 canate 1fix + 1mobil CDO",
+		"type": "F 2 180x150",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1800,
+		"height": 1500,
+		"details": {}
+	},
+	"162": {
+		"name": "LEV_Fereastra 2 canate_wip",
+		"type": "F 3 500x150",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1800,
+		"height": 1500,
+		"details": {}
+	},
+	"163": {
+		"name": "EXT Fereastra un canat1",
+		"type": "F 4 900 X 900",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 900,
+		"height": 900,
+		"details": {}
+	},
+	"164": {
+		"name": "fereastra 2 canate 1fix + 1mobil CDO",
+		"type": "F 5 180x100",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1800,
+		"height": 1000,
+		"details": {}
+	},
+	"165": {
+		"name": "fereastra 2 canate 1fix + 1mobil CDO",
+		"type": "F 6 180x150 Camera tehnica etaj 2",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1800,
+		"height": 1500,
+		"details": {}
+	},
+	"166": {
+		"name": "EXT Fereastra un canat1",
+		"type": "F 7 3200 X 1000",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 3200,
+		"height": 1000,
+		"details": {}
+	},
+	"167": {
+		"name": "EXT Fereastra un canat1",
+		"type": "F 8 3200 X 1000",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 3200,
+		"height": 1000,
+		"details": {}
+	},
+	"168": {
+		"name": "Basic Wall",
+		"type": "EXT_F_GRA3-ADV2_5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"169": {
+		"name": "Basic Wall",
+		"type": "EXT_I_INS5_5 cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"170": {
+		"name": "Basic Wall",
+		"type": "EXT_I_INS5_PLA1_6cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 60,
+		"details": {}
+	},
+	"171": {
+		"name": "Basic Wall",
+		"type": "EXT_I_INS10EPS_PLA1_11cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 110,
+		"details": {}
+	},
+	"172": {
+		"name": "Basic Wall",
+		"type": "EXT_I_INS10VM_PLA1_11cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 110,
+		"details": {}
+	},
+	"173": {
+		"name": "Basic Wall",
+		"type": "EXT_I_INS10XPS_PLA1_11cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 110,
+		"details": {}
+	},
+	"174": {
+		"name": "Basic Wall",
+		"type": "EXT_M_BRI25_25cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 250,
+		"details": {}
+	},
+	"175": {
+		"name": "Basic Wall",
+		"type": "INT_G_ADV2-GBO1.25-CER1.5_4.75cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 47.5,
+		"details": {}
+	},
+	"176": {
+		"name": "Basic Wall",
+		"type": "INT_G_CER1.5-GBO1.25-GBO1.25-MET7.5-GBO1.25-GBO1.25-CER1.5-wtp_15.5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 155,
+		"details": {}
+	},
+	"177": {
+		"name": "Basic Wall",
+		"type": "INT_G_CER1.5-GBO1.25-GBO1.25-MET7.5-GBO1.25-GBO1.25-wtp1/2_14cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 140,
+		"details": {}
+	},
+	"178": {
+		"name": "Basic Wall",
+		"type": "INT_G_CER1.5-GBO1.25-GBO1.25-MET7.5-GBO1.25-GBO1.25-wtp_14cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 140,
+		"details": {}
+	},
+	"179": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-ADV2.0-wtp_3.25cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 32.5,
+		"details": {}
+	},
+	"180": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-GBO1.25-MET5.0-wtp_7.5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 75,
+		"details": {}
+	},
+	"181": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-GBO1.25-MET5.0_7.5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 76,
+		"details": {}
+	},
+	"182": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-GBO1.25-MET7.5-GBO1.25-GBO1.25-EI90-wtp_12.5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"183": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-GBO1.25-MET7.5-GBO1.25-GBO1.25-wtp1/2_12.5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"184": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-GBO1.25-MET7.5-GBO1.25-GBO1.25-wtp_12.5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"185": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-GBO1.25-MET7.5-GBO1.25-GBO1.25_12.5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"186": {
+		"name": "Basic Wall",
+		"type": "INT_G_GBO1.25-GBO1.25-MET7.5_10.0cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"187": {
+		"name": "Basic Wall",
+		"type": "INT_G_MET7.5-GBO1.25-GBO1.25-CER1.5_11.5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 115,
+		"details": {}
+	},
+	"188": {
+		"name": "Basic Wall",
+		"type": "INT_G_MET7.5-GBO1.25-GBO1.25-EI90-wtp_10cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 101,
+		"details": {}
+	},
+	"189": {
+		"name": "Basic Wall",
+		"type": "INT_M_BRI25_25cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 250,
+		"details": {}
+	},
+	"190": {
+		"name": "Floor",
+		"type": "0 Terasa necirculabila",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 320,
+		"details": {}
+	},
+	"191": {
+		"name": "Floor",
+		"type": "0 Treapta acces 10",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"192": {
+		"name": "Floor",
+		"type": "Adeziv 2 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"193": {
+		"name": "Floor",
+		"type": "Beton de egalizare 5 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"194": {
+		"name": "Floor",
+		"type": "Covor PVC 2 cm+ Sapa3 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"195": {
+		"name": "Floor",
+		"type": "Granit 3 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"196": {
+		"name": "Floor",
+		"type": "Strat de rupere a capilaritatii pietris uscat 20 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"197": {
+		"name": "Floor",
+		"type": "Talpa fundatie 50 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 500,
+		"details": {}
+	},
+	"198": {
+		"name": "Floor",
+		"type": "Termoizolatie polistiren extrudat 10 cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"199": {
+		"name": "EXT Usa metalica 2 canaturi inegale",
+		"type": "UP 3 1500 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1500,
+		"height": 2100,
+		"details": {}
+	},
+	"200": {
+		"name": "EXT Usa metalica 2 canaturi inegale",
+		"type": "UP 4 1500 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1500,
+		"height": 2100,
+		"details": {}
+	},
+	"201": {
+		"name": "EXT Usa metalica un canat",
+		"type": "UP 1 900 x 2400mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2400,
+		"details": {}
+	},
+	"202": {
+		"name": "EXT Usa metalica un canat",
+		"type": "UP 2 900 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"203": {
+		"name": "INT Usa lemn un canat",
+		"type": "UI5 800 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 800,
+		"height": 2100,
+		"details": {}
+	},
+	"204": {
+		"name": "INT Usa metalica 2 canaturi",
+		"type": "UI 6 1800 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1800,
+		"height": 2100,
+		"details": {}
+	},
+	"205": {
+		"name": "INT Usa metalica un canat1",
+		"type": "UI 1 900 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"206": {
+		"name": "INT Usa metalica un canat1",
+		"type": "UI 2 900 x 2100mm autoinchidere",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"207": {
+		"name": "INT Usa metalica un canat1",
+		"type": "UI 3 900 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"208": {
+		"name": "INT Usa metalica un canat1",
+		"type": "UI 3 900 x 2100mm bara anti-panica",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"209": {
+		"name": "INT Usa metalica un canat1",
+		"type": "UI 4 900 x 2100mm camere tehnice",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"210": {
+		"name": "Compound Ceiling",
+		"type": "Plafon casetat 600x600 suplimentare",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 57,
+		"details": {}
+	},
+	"211": {
+		"name": "Compound Ceiling",
+		"type": "Plafon casetat 600x600 wtp suplimentare",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 57,
+		"details": {}
+	},
+	"212": {
+		"name": "Compound Ceiling",
+		"type": "Plafon lis",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 57,
+		"details": {}
+	},
+	"213": {
+		"name": "Compound Ceiling",
+		"type": "Plafon lis suplimentare",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 57,
+		"details": {}
+	},
+	"214": {
+		"name": "Compound Ceiling",
+		"type": "Plafon lis wtp suplimentare",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 57,
+		"details": {}
+	},
+	"215": {
+		"name": "Window_Matrix 70_Side Hung Next to Fixed_Veka_Triple Glazing_Outward Opening_Frame 80mm_Mullion 82Z1",
+		"type": "Window_Matrix 70_Side Hung Next to Fixed_Veka_Triple Glazing_Outward Opening_Frame 80mm_Mullion 82Z  160X120 2",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1600,
+		"height": 1230,
+		"details": {}
+	},
+	"216": {
+		"name": "Fixed",
+		"type": "2000x1000",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 2000,
+		"height": 1000,
+		"details": {}
+	},
+	"217": {
+		"name": "Tpl Variable Casement",
+		"type": "Tpl Variable Casement",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 2500,
+		"height": 1200,
+		"details": {}
+	},
+	"218": {
+		"name": "LEV_Grilaj adaptativ",
+		"type": "Grilaj G12b 250x120cm",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 2500,
+		"height": 1200,
+		"details": {}
+	},
+	"219": {
+		"name": "Compound Ceiling",
+		"type": "INT_TFM-CAS-7.5cm_MET50+TFM25",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 75,
+		"details": {}
+	},
+	"220": {
+		"name": "Compound Ceiling",
+		"type": "INT_TFM-EI15-CAS-8cm_MET50+TFM",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 3,
+		"width": 80,
+		"details": {}
+	},
+	"221": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UP-c EXT 2",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"222": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UPC",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"223": {
+		"name": "Door-Adjustable_2242",
+		"type": "Adjustable metalica",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1800,
+		"height": 2100,
+		"details": {}
+	},
+	"224": {
+		"name": "Door-Adjustable_2242",
+		"type": "Adjustable metalica 2",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1900,
+		"height": 2100,
+		"details": {}
+	},
+	"225": {
+		"name": "Door-Adjustable_2242",
+		"type": "Adjustable metalica 90c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1800,
+		"height": 2100,
+		"details": {}
+	},
+	"226": {
+		"name": "Overhead-Rolling-fire resistant curtain_fara admisie",
+		"type": "Cortina rulou RF45 3X3",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 3800,
+		"height": 4200,
+		"details": {}
+	},
+	"227": {
+		"name": "Overhead-Rolling-fire resistant curtain",
+		"type": "Cortina rulou RF45 3X3",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 3800,
+		"height": 4200,
+		"details": {}
+	},
+	"228": {
+		"name": "Double_Door_13947",
+		"type": "D1 180X210cm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 1800,
+		"height": 2100,
+		"details": {}
+	},
+	"229": {
+		"name": "INT Usa metalica un canat",
+		"type": "D900 x 2100mm U07",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"230": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UEI45 U08",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"231": {
+		"name": "Door-Single Shutter with Louvers1",
+		"type": "UL2d-Usa celulara din lemn pe toc din lemn,disp. de inchidere normal inchis, brat amortizor art.,opritor,grila incorp.400x200mm d",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 700,
+		"height": 2100,
+		"details": {}
+	},
+	"232": {
+		"name": "Overhead-Rolling-fire resistant curtain",
+		"type": "Cortina rulou RF45 3X3",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 5000,
+		"height": 4000,
+		"details": {}
+	},
+	"233": {
+		"name": "Basic Wall",
+		"type": "EXT_BCA-EI240-30cm_BCA30 EI60",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"234": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-20cm_1xBCA20 EI 60",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"235": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-20cm_1xBCA20_EI150",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"236": {
+		"name": "Basic Wall",
+		"type": "INT_EXT 5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"237": {
+		"name": "Basic Wall",
+		"type": "INT_EXT 5.0cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"238": {
+		"name": "Basic Wall",
+		"type": "INT_GK_7.5cm_GK-6.5cm_PLY-1cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 75,
+		"details": {}
+	},
+	"239": {
+		"name": "Basic Wall",
+		"type": "INT_EXT_5.0cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"240": {
+		"name": "Basic Wall",
+		"type": "INT_GK_7.5_GK-6.5cm_PLY-1cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 75,
+		"details": {}
+	},
+	"241": {
+		"name": "Basic Wall",
+		"type": "INT_BCA-11.5cm_1xBCA11.5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 115,
+		"details": {}
+	},
+	"242": {
+		"name": "Flat Roof",
+		"type": "0 Terasa necirculabila",
+		"file": "",
+		"placement": "flatroof",
+		"placementType": 1,
+		"width": 320
+	},
+	"243": {
+		"name": "Flat Roof",
+		"type": "EXT_terasa necirc 2xhidr+ ssa7cm+p extr15cm+dif 3",
+		"file": "",
+		"placement": "flatroof",
+		"placementType": 1,
+		"width": 330
+	},
+	"244": {
+		"name": "Basic Roof",
+		"type": "GRESIE ANTIDERAPANTA ACOPERIS",
+		"file": "",
+		"placement": "rooftop",
+		"placementType": 1,
+		"width": 35
+	},
+	"245": {
+		"name": "Basic Roof",
+		"type": "LVT_ROOF 10cm",
+		"file": "",
+		"placement": "rooftop",
+		"placementType": 1,
+		"width": 105
+	},
+	"246": {
+		"name": "LEV_CIL_LED_Aparent_4300LM__600x600_IP40.0001",
+		"type": "LEV_CIL_LED_Aparent_4300LM__600x600_IP40.0001",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"247": {
+		"name": "LEV_priza simpla alba_2M_ST_IP20",
+		"type": "Type 2 _ 2 Modules",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 2,
+		"width": 80,
+		"length": 30
+	},
+	"248": {
+		"name": "LEV_priza dubla alba_4M_ST_IP20",
+		"type": "Type 4  _ 4 Modules",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 2,
+		"width": 90,
+		"length": 30
+	},
+	"249": {
+		"name": "LEV_INTRER. SIMPLU_ST_2M_IP20",
+		"type": "LEV_INTRER. SIMPLU_ST_2M_IP20",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 3,
+		"width": 90,
+		"length": 30
+	},
+	"250": {
+		"name": "LEV_PRIZA_SIMPLA_PT_IP54",
+		"type": "LEV_PRIZA_SIMPLA_PT_IP54",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 60,
+		"length": 50
+	},
+	"251": {
+		"name": "LEV_INTRER. CAP SCARA_ST_2M_IP20",
+		"type": "LEV_INTRER. CAP SCARA_ST_2M_IP20",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 3,
+		"width": 50,
+		"length": 30
+	},
+	"252": {
+		"name": "LEV_INTRER. SIMPLU_PT_2M_IP54",
+		"type": "LEV_INTRER. SIMPLU_PT_2M_IP54",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 3,
+		"width": 50,
+		"length": 30
+	},
+	"253": {
+		"name": "LEV_CIL_LED_5W_EV+HI_perete",
+		"type": "Schneider-Electric - Exiway Power Control Luminaries",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 3,
+		"width": 50,
+		"length": 30
+	},
+	"254": {
+		"name": "LEV_CIL_LED_13W_3200K_320x69mm_PT_IP44_oglinda",
+		"type": "Micci 411CWH 1xPL-S/4P11W MO",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 320,
+		"length": 69
+	},
+	"255": {
+		"name": "LEV_CIL_LED_36W_3600LM_4000K_600x600_ST_IP44_cu kit",
+		"type": "LEV_CIL_LED_36W_3600LM_4000K_600x600_ST_IP44_cu kit",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"256": {
+		"name": "LEV_CIL_LED_5W_EV+HI_perete",
+		"type": "Schneider-Electric - Exiway Power Control Luminaries-HI",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"257": {
+		"name": "LEV_CIL_LED_Tavan fals_4300LM__600x600_IP40",
+		"type": "LEV_CIL_LED_Tavan fals_4300LM__600x600_IP40",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"258": {
+		"name": "LEV_CIL_LED_50W_5700lm_IP54_1.5m",
+		"type": "LEV_CIL_LED_50W_5700lm_IP54_1.5m",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"259": {
+		"name": "LEV_CIL_LED_36W_3600LM_4000K_KIT_600x600_ST_IP40",
+		"type": "LEV_CIL_LED_36W_3600LM_4000K_KIT_600x600_ST_IP40",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"260": {
+		"name": "LEV_16W_1900K_KIT_PT_EX-usi_IP65",
+		"type": "LEV_16W_1900K_KIT_PT_EX-usi_IP65",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"261": {
+		"name": "LEV_CIL_LED_5W_4000K_KIT_PT_EXIT",
+		"type": "Schneider-Electric - Exiway Power Control Luminaries-Exiway One-Wall mounted SDT 300 lm",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 600,
+		"length": 600
+	},
+	"262": {
+		"name": "INT Usa lemn un canat",
+		"type": "Ui06-900 x 2100mm",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"263": {
+		"name": "Door-Single Shutter with Louvers1",
+		"type": "Ui7.1-Usa lem cu grila transfer 800x2100",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 800,
+		"height": 2100,
+		"details": {}
+	},
+	"264": {
+		"name": "Door-Single Shutter with Louvers1",
+		"type": "Ui8.1-Usa lem cu grila transfer 700x2100",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 700,
+		"height": 2100,
+		"details": {}
+	},
+	"265": {
+		"name": "Door-Single Shutter with Louvers1",
+		"type": "Ui6.1-Usa lem cu grila transfer 900x2100",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"266": {
+		"name": "INT Usa metalica un canat",
+		"type": "Ui02-900 x 2100mm UEI90-c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"267": {
+		"name": "INT Usa metalica un canat",
+		"type": "900 x 2100mm UL1",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 900,
+		"height": 2100,
+		"details": {}
+	},
+	"268": {
+		"name": "INT Usa metalica un canat",
+		"type": "750 x 2100mm UL2",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 750,
+		"height": 2100,
+		"details": {}
+	},
+	"269": {
+		"name": "Curtain Wall",
+		"type": "220x180cm F01",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 2200,
+		"height": 1800,
+		"details": {}
+	},
+	"270": {
+		"name": "Kawneer -GLASSVENT-CURTAIN WALL-01_21022",
+		"type": "220X180 F01",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 2200,
+		"height": 1800,
+		"details": {}
+	},
+	"271": {
+		"name": "INT Usa metalica un canat",
+		"type": "120 x 2100mm UEI90-c",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 120,
+		"height": 2100,
+		"details": {}
+	},
+	"272": {
+		"name": "window_double_57x62",
+		"type": "57\" x 72\"",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": "0",
+		"height": "0",
+		"details": {}
+	},
+	"273": {
+		"name": "window_double_41x53",
+		"type": "41\" x 53\"",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": "0",
+		"height": "0",
+		"details": {}
+	},
+	"274": {
+		"name": "Dbl Plain",
+		"type": "Dbl Plain100x180",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1800,
+		"height": 1000,
+		"details": {}
+	},
+	"275": {
+		"name": "0700 x 900mm",
+		"type": "0700 x 900mm",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 900,
+		"height": 700,
+		"details": {}
+	},
+	"276": {
+		"name": "EXT Poarta de hangar tip glisanta",
+		"type": "EXT Usa industriala culisanta",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 5000,
+		"height": 3000,
+		"details": {}
+	},
+	"277": {
+		"name": "Grill Rectangular",
+		"type": "Grill Rectangular 60x180 CM02",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 600,
+		"height": 1800,
+		"details": {}
+	},
+	"278": {
+		"name": "Kawneer -GLASSVENT-CURTAIN WALL-01_21022",
+		"type": "60X180 F02",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 600,
+		"height": 1800,
+		"details": {}
+	},
+	"279": {
+		"name": "Rectangular Mullion",
+		"type": "5 rectangular",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": "0",
+		"height": "0",
+		"details": {}
+	},
+	"280": {
+		"name": "0700 x 900mm",
+		"type": "0600 x 1800mm",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 600,
+		"height": 1800,
+		"details": {}
+	},
+	"281": {
+		"name": "EXT Panou usa vitrata 2 canaturi + 2 luminatoare laterale fixe+ supralumina",
+		"type": "4700 x 3000",
+		"file": "",
+		"placement": "doors",
+		"placementType": 1,
+		"width": 4700,
+		"height": 3000,
+		"details": {}
+	},
+	"282": {
+		"name": "Kawneer -GLASSVENT-CURTAIN WALL-01_21022",
+		"type": "110X180 F05",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1100,
+		"height": 1800,
+		"details": {}
+	},
+	"283": {
+		"name": "EXT Fereastra un canat",
+		"type": "1000X1250 FE 03",
+		"file": "",
+		"placement": "windows",
+		"placementType": 1,
+		"width": 1000,
+		"height": 1325,
+		"details": {}
+	},
+	"284": {
+		"name": "LEV_PRIZA_ST_IP44",
+		"type": "LEV_PRIZA_ST_IP44",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 100,
+		"length": 85
+	},
+	"285": {
+		"name": "LEV_BUTON CU REVENIRE_ST_2M_IP20",
+		"type": "6438199001869",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 3,
+		"width": 85,
+		"length": 85
+	},
+	"286": {
+		"name": "Stacked Walls",
+		"type": "FIN_CTI+LAV_2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20
+	},
+	"287": {
+		"name": "Stacked Walls",
+		"type": "WIP_FIN_LAV10-CTI15_15cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20
+	},
+	"288": {
+		"name": "Stacked Walls",
+		"type": "WIP_FIN_LAV10-EPOX10_20",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 10
+	},
+	"289": {
+		"name": "Stacked Walls",
+		"type": "WIP_FIN_LAV10-EPOX10_20_2",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 10
+	},
+	"290": {
+		"name": "Stacked Walls",
+		"type": "WIP_FIN_TC15-CTI15-LAV_30",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 30
+	},
+	"291": {
+		"name": "Stacked Walls",
+		"type": "WIP_FIN_TC15-LAV-EPOX10_15-25",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 25
+	},
+	"292": {
+		"name": "Stacked Walls",
+		"type": "WIP_FIN_TC15-LAV-EPOX10_25",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 25
+	},
+	"293": {
+		"name": "Stacked Walls",
+		"type": "WIP_FIN_TC15-LAV_15",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 15
+	},
+	"294": {
+		"name": "Basic Wall",
+		"type": "EXT_BRI-EI180-20cm_BRI20",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"295": {
+		"name": "Basic Wall",
+		"type": "EXT_BRI-EI240-25cm_BRI25",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 250,
+		"details": {}
+	},
+	"296": {
+		"name": "Basic Wall",
+		"type": "EXT_BRI-EI240-30cm_BRI30",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"297": {
+		"name": "Basic Wall",
+		"type": "EXT_INSexp-5cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"298": {
+		"name": "Basic Wall",
+		"type": "EXT_INSexp-25cm_INS",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 250,
+		"details": {}
+	},
+	"299": {
+		"name": "Basic Wall",
+		"type": "EXT_INSext-12cm_INS10+PLA2+PAI0.1",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 120,
+		"details": {}
+	},
+	"300": {
+		"name": "Basic Wall",
+		"type": "FIN_CTI-2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"301": {
+		"name": "Basic Wall",
+		"type": "FIN_EPOX-0.1cm_EPOX0.1",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 10,
+		"details": {}
+	},
+	"302": {
+		"name": "Basic Wall",
+		"type": "FIN_faianta 2.10+lav pe GK",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 15,
+		"details": {}
+	},
+	"303": {
+		"name": "Basic Wall",
+		"type": "FIN_LAV BACT+GLET pe GK-2.5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 25,
+		"details": {}
+	},
+	"304": {
+		"name": "Basic Wall",
+		"type": "FIN_LAV+GLET pe GK-2.5cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 25,
+		"details": {}
+	},
+	"305": {
+		"name": "Basic Wall",
+		"type": "FIN_PL REZ RX-2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"306": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA MET-2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"307": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-1.5cm_PLA1.5",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 15,
+		"details": {}
+	},
+	"308": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-1.5cm_PLA1.5+PAI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 16,
+		"details": {}
+	},
+	"309": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-2.5cm_PLA1.5+EPOX1",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 25,
+		"details": {}
+	},
+	"310": {
+		"name": "Basic Wall",
+		"type": "FIN_PLA-3cm_PLA1.5+CTI1.5",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"311": {
+		"name": "Basic Wall",
+		"type": "FIN_PROTECTIE_MEC-2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"312": {
+		"name": "Basic Wall",
+		"type": "FIN_TENC+LAV BACT pe beton/zidarie-2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"313": {
+		"name": "Basic Wall",
+		"type": "FIN_TENC+LAV pe beton/zidarie-2cm",
+		"file": "",
+		"placement": "finishes",
+		"placementType": 1,
+		"width": 20,
+		"details": {}
+	},
+	"314": {
+		"name": "Basic Wall",
+		"type": "INT_BRI-EI120-11.5cm_BRI11.5",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"315": {
+		"name": "Basic Wall",
+		"type": "INT_BRI-EI240-20cm_BRI20",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"316": {
+		"name": "Basic Wall",
+		"type": "INT_BRI-EI240-30cm_BRI30",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"317": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI45-12.5cm_RFI+RF+MET75+INSmw+RF+RFI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"318": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI60-12.5cm_RFI+RF+MET75+INSmw+RF+RFI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"319": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI90-12.5_RFI+RF+MET75+INSmw+RF+RFI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 125,
+		"details": {}
+	},
+	"320": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI120-22cm_RFI+RF+RF+MET130+INSmw+RF+RF+RF",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 220,
+		"details": {}
+	},
+	"321": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI120-22cm_RFI+RF+RF+MET130+INSmw+RF+RF+RFI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 220,
+		"details": {}
+	},
+	"322": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI180-22cm_RF+RF+RF+MET75+INSmw+RF+RF+RF",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 220,
+		"details": {}
+	},
+	"323": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI180-22cm_RFI+RF+RF+MET75+INSmw+RF+RF+RF",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 220,
+		"details": {}
+	},
+	"324": {
+		"name": "Basic Wall",
+		"type": "INT_GK-EI180-22cm_RFI+RF+RF+MET130+INSmw+RF+RF+RFI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 220,
+		"details": {}
+	},
+	"325": {
+		"name": "Basic Wall",
+		"type": "INT_GK_RB_15cm_2xRB+MET100+INSmw+2xRB",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"326": {
+		"name": "Basic Wall",
+		"type": "INT_GK_RBI_15cm_RBI+RB+MET100+INSmw+RB+RBI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"327": {
+		"name": "Basic Wall",
+		"type": "INT_GK_RF_15cm_2xRF+MET100+INSmw+2xRF",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"328": {
+		"name": "Basic Wall",
+		"type": "INT_GK_RFI_15cm_RFI+RF+MET100+INSmw+RF+RFI",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"329": {
+		"name": "Basic Wall",
+		"type": "REZ_BA-20cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"330": {
+		"name": "Basic Wall",
+		"type": "REZ_BA-25cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 250,
+		"details": {}
+	},
+	"331": {
+		"name": "Basic Wall",
+		"type": "REZ_BA-30cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"332": {
+		"name": "Basic Wall",
+		"type": "REZ_BA-40cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 400,
+		"details": {}
+	},
+	"333": {
+		"name": "Basic Wall",
+		"type": "REZ_BA-45cm",
+		"file": "",
+		"placement": "walls",
+		"placementType": 1,
+		"width": 450,
+		"details": {}
+	},
+	"334": {
+		"name": "Floor",
+		"type": "EXT_GRO-970cm_PVC+GRA10+GR0960",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9700,
+		"details": {}
+	},
+	"335": {
+		"name": "Floor",
+		"type": "EXT_GRS-97cm_GRS10+GR0870",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9700,
+		"details": {}
+	},
+	"336": {
+		"name": "Floor",
+		"type": "EXT_SW-40cm_PRE10+PVC+SAN10+GRA20",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"337": {
+		"name": "Floor",
+		"type": "EXT_SW_PRE10+SAN10+PVC+GRA20_40cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 300,
+		"details": {}
+	},
+	"338": {
+		"name": "Floor",
+		"type": "FND_GRO-925cm_PVC+INS10+GRA15+GR0900",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9250,
+		"details": {}
+	},
+	"339": {
+		"name": "Floor",
+		"type": "INT_EPX ANTST-3cm 2",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"340": {
+		"name": "Floor",
+		"type": "INT_EPX-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"341": {
+		"name": "Floor",
+		"type": "INT_LVT-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"342": {
+		"name": "Floor",
+		"type": "INT_MOZAIC-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"343": {
+		"name": "Floor",
+		"type": "INT_PC-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"344": {
+		"name": "Floor",
+		"type": "INT_PLRT-REZ AG-CHIM-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"345": {
+		"name": "Floor",
+		"type": "INT_PVC MED ANTD-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"346": {
+		"name": "Floor",
+		"type": "INT_PVC MED ANTST-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"347": {
+		"name": "Floor",
+		"type": "INT_PVC MED-3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 30,
+		"details": {}
+	},
+	"348": {
+		"name": "Floor",
+		"type": "REZ_BA-25cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 250,
+		"details": {}
+	},
+	"349": {
+		"name": "Floor",
+		"type": "REZ_BA-75cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 750,
+		"details": {}
+	},
+	"350": {
+		"name": "Floor",
+		"type": "WIP_Generic 70 mm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"351": {
+		"name": "Floor",
+		"type": "WIP_Generic - 12\"",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 305,
+		"details": {}
+	},
+	"352": {
+		"name": "Floor",
+		"type": "WIP_Generic - 12\" - Filled",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 305,
+		"details": {}
+	},
+	"353": {
+		"name": "Floor",
+		"type": "WIP_Gr anrid 2cm+sapa sa 30cm+planseu ba 15cm+fol PE+ pol extr 10cm+balast com 15cm+pamant comp",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9480,
+		"details": {}
+	},
+	"354": {
+		"name": "Floor",
+		"type": "WIP_Gres antid 2cm+ sapa3cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"355": {
+		"name": "Floor",
+		"type": "WIP_Gres antid 20cm+sapa sa 30+ pol exp 10cm +planseu ba 15cm+fol PE+ pol exp 10cm+balast com 15cm+pamant comp+pamant 9000",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9590,
+		"details": {}
+	},
+	"356": {
+		"name": "Floor",
+		"type": "WIP_Gres antid 20cm+sapa sa 30+ pol exp 10cm +radier 45cm+fol PE+ pol exp 10cm+balast com 15cm+pamant comp+pamant 900",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9890,
+		"details": {}
+	},
+	"357": {
+		"name": "Floor",
+		"type": "WIP_INT Gr antid 2cm+sapa sa 30cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"358": {
+		"name": "Floor",
+		"type": "WIP_LW Concrete on Metal Deck",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 105,
+		"details": {}
+	},
+	"359": {
+		"name": "Floor",
+		"type": "WIP_pard flex 20 + planseu ba 50cm + predale ba",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 150,
+		"details": {}
+	},
+	"360": {
+		"name": "Floor",
+		"type": "WIP_pardos epox de int",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 10,
+		"details": {}
+	},
+	"361": {
+		"name": "Floor",
+		"type": "WIP_pardos epox+sapa 5cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"362": {
+		"name": "Floor",
+		"type": "WIP_pardos epox+sapa 5cm INT",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"363": {
+		"name": "Floor",
+		"type": "WIP_pardos epox+sapa 5cm+planseu ba 15cm",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"364": {
+		"name": "Floor",
+		"type": "WIP_pardos epox+sapa 5cm+planseu ba 25cm +pol extrud 100",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 5810,
+		"details": {}
+	},
+	"365": {
+		"name": "Floor",
+		"type": "WIP_pardos epox+sapa 5cm+planseu ba 25cm+f PVC+balast com 30cm+pamant comp 100cm+pamant 500",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 6980,
+		"details": {}
+	},
+	"366": {
+		"name": "Floor",
+		"type": "WIP_planseu ba 10cm +ssa min 3",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 130,
+		"details": {}
+	},
+	"367": {
+		"name": "Floor",
+		"type": "WIP_planseu ba 15cm +ssa min 3+gres 2",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 200,
+		"details": {}
+	},
+	"368": {
+		"name": "Floor",
+		"type": "WIP_planseu ba 25cm+f PVC+balast com 30cm+pamant comp 100cm+pamant 500",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 6930,
+		"details": {}
+	},
+	"369": {
+		"name": "Floor",
+		"type": "WIP_planseu ba 25cm+f PVC+balast com 30cm+pamant comp 100cm+pamant 5000",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 6980,
+		"details": {}
+	},
+	"370": {
+		"name": "Floor",
+		"type": "WIP_platform beton + f PVC + petris 10cm+ pamant 9401",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9830,
+		"details": {}
+	},
+	"371": {
+		"name": "Floor",
+		"type": "WIP_platforma beton + f PVC + petris 10cm+ pamant 9400 bun",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9830,
+		"details": {}
+	},
+	"372": {
+		"name": "Floor",
+		"type": "WIP_platforme betonate + f PVC + petris 10cm+ pamant 9400",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9830,
+		"details": {}
+	},
+	"373": {
+		"name": "Floor",
+		"type": "WIP_protectie balistica 5cm 2",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 50,
+		"details": {}
+	},
+	"374": {
+		"name": "Floor",
+		"type": "WIP_Steel Bar Joist 14\" - VCT on Concrete",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 440,
+		"details": {}
+	},
+	"375": {
+		"name": "Floor",
+		"type": "WIP_suf roof trotuar ba 10cm + pamant 9401",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 9700,
+		"details": {}
+	},
+	"376": {
+		"name": "Floor",
+		"type": "WIP_terasa necirc 2xhidr+ ssa7cm+p extr15cm+dif",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 250,
+		"details": {}
+	},
+	"377": {
+		"name": "Floor",
+		"type": "WIP_terasa necirc 2xhidr+ ssa7cm+p extr15cm+dif 2",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 285,
+		"details": {}
+	},
+	"378": {
+		"name": "Floor",
+		"type": "WIP_Wood Joist 10\" - Ceramic Tile",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 270,
+		"details": {}
+	},
+	"379": {
+		"name": "Floor",
+		"type": "WIP_Wood Joist 10\" - Wood Finish",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 270,
+		"details": {}
+	},
+	"380": {
+		"name": "Floor",
+		"type": "WIP_Wood Truss  Joist 12\" - Carpet Finish",
+		"file": "",
+		"placement": "floors",
+		"placementType": 1,
+		"width": 320,
+		"details": {}
+	},
+	"381": {
+		"name": "Compound Ceiling",
+		"type": "INT_CAS MET_7cm",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"382": {
+		"name": "Compound Ceiling",
+		"type": "INT_CAS_7cm",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"383": {
+		"name": "Compound Ceiling",
+		"type": "INT_GK-EI30-LIS-10cm_MET75+RFI+RFI",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"384": {
+		"name": "Compound Ceiling",
+		"type": "INT_GK-EI45-LIS-7.5cm_MET75+RFI+RFI",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 75,
+		"details": {}
+	},
+	"385": {
+		"name": "Compound Ceiling",
+		"type": "INT_GK-EI60-LIS-8.75cm_MET75+RFI+RFI+RFI",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 87.5,
+		"details": {}
+	},
+	"386": {
+		"name": "Compound Ceiling",
+		"type": "INT_GK-LIS-10cm_MET75+2xRB",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"387": {
+		"name": "Compound Ceiling",
+		"type": "INT_GK-LIS-10cm_MET75+RB+RBI",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"388": {
+		"name": "Compound Ceiling",
+		"type": "INT_GK-LIS_RF_10cm_MET75+2xRF",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"389": {
+		"name": "Compound Ceiling",
+		"type": "INT_GK-LIS_RFI_10cm_MET75+RF+RFI",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 100,
+		"details": {}
+	},
+	"390": {
+		"name": "Compound Ceiling",
+		"type": "INT_LAV BACT_7cm",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 70,
+		"details": {}
+	},
+	"391": {
+		"name": "Compound Ceiling",
+		"type": "INT_TFM-EI30-CAS-8cm_MET50+TFM",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 80,
+		"details": {}
+	},
+	"392": {
+		"name": "Compound Ceiling",
+		"type": "WIP_GWB on Mtl. Stud",
+		"file": "",
+		"placement": "ceilings",
+		"placementType": 1,
+		"width": 110,
+		"details": {}
+	},
+	"393": {
+		"name": "LEV_CIL_LED_27W_2800LM_4000K_ST_IP44",
+		"type": "DN470B PSE-E P 1 xLED20S_840 C P",
+		"file": "",
+		"placement": "electricals",
+		"placementType": 1,
+		"width": 216,
+		"length": 216
+	}
+}

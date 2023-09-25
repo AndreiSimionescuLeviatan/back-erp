@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS company_nexus_api_key;

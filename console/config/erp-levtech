@@ -1,0 +1,98 @@
+####################### ADM #######################
+
+# DB backup (every ten minutes)
+*/10 * * * * root /opt/econfaire/ecf-sql-backup.sh >> /var/www/ecf-erp/console/logs/ecf-sql-backup.log
+
+# notify if ssl certs expires
+0 08 * * * root php /var/www/ecf-erp/yii ssl-notification >> /var/www/ecf-erp/console/logs/ssl-notification.log
+
+# change super admin password every week
+0 0 * * 0 econfaire php /var/www/ecf-erp/yii adm-change-super-admin-psw >> /var/www/ecf-erp/console/logs/adm-change-super-admin-psw.log
+
+####################### AUTO #######################
+
+# Send expired documents notification (every day at 13:50)
+50 13 * * * root php /var/www/ecf-erp/yii expired-car-documents-notification >> /var/www/ecf-erp/console/logs/expired-car-documents-notification.log
+
+# Send expired documents notification (every day at 13:55)
+55 13 * * * root php /var/www/ecf-erp/yii car-documents-missing-exp-date-notification >> /var/www/ecf-erp/console/logs/car-documents-missing-exp-date-notification.log
+
+# Send auto document expiration notification (every day at 14:00)
+0 14 * * * root php /var/www/ecf-erp/yii auto-document-expiration-notification >> /var/www/ecf-erp/console/logs/auto-document-expiration-notification.log
+
+# Send auto accessory expiration notification (every day at 14:20)
+20 14 * * * root php /var/www/ecf-erp/yii auto-car-accessory-expiration-notifications >> /var/www/ecf-erp/console/logs/accessory-exp.log
+
+# Send auto revision notification (every day at 14:30)
+30 14 * * * root php /var/www/ecf-erp/yii auto-revision-notification >> /var/www/ecf-erp/console/logs/auto-revision-notification.log
+
+# Import locations from NEXUS (every day at 2)
+0 2 * * * root php /var/www/ecf-erp/yii auto-import-nexus-locations 2 >> /var/www/ecf-erp/console/logs/auto-import-nexus-locations-lev.log
+15 2 * * * root php /var/www/ecf-erp/yii auto-import-nexus-locations 1 >> /var/www/ecf-erp/console/logs/auto-import-nexus-locations-ubi.log
+
+# Import cars from NEXUS (every day at 18:00)
+0 18 * * * root php /var/www/ecf-erp/yii auto-import-nexus-cars 2 >> /var/www/ecf-erp/console/logs/auto-import-nexus-cars-lev.log
+15 18 * * * root php /var/www/ecf-erp/yii auto-import-nexus-cars 1 >> /var/www/ecf-erp/console/logs/auto-import-nexus-cars-ubi.log
+
+# Import journeys from NEXUS (every day at 03:00)
+5 03 * * * root php /var/www/ecf-erp/yii auto-import-nexus-journey 2 >> /var/www/ecf-erp/console/logs/auto-import-nexus-journey-lev.log
+15 03 * * * root php /var/www/ecf-erp/yii auto-import-nexus-journey 1 >> /var/www/ecf-erp/console/logs/auto-import-nexus-journey-ubi.log
+
+# validate journey notifications (every day at 09:00)
+0 09 * * * root php /var/www/ecf-erp/yii journeys-validation-notification >> /var/www/ecf-erp/console/logs/journeys-validation-notification.log
+
+# Generate data for road map (every month on third day at 05:00)
+# 0 05 3 * * root php /var/www/ecf-erp/yii auto-generate-road-map $(date +"\%Y \%m" -d "last month") >> /var/www/ecf-erp/console/logs/auto-generate-road-map.log
+
+# Generate data for road map  supplementary(every month on third day at 05:00)
+# 10 05 3 * * root php /var/www/ecf-erp/yii auto-supplements-roadmap 1 $(date +"\%Y \%m" -d "last month")  >> /var/www/ecf-erp/console/logs/auto-supplements-roadmap.log
+# 10 05 3 * * root php /var/www/ecf-erp/yii auto-supplements-roadmap 2 $(date +"\%Y \%m" -d "last month")  >> /var/www/ecf-erp/console/logs/auto-supplements-roadmap.log
+
+# notify the driver if the tires expire (everyday at 10 am)
+0 10 * * * root php /var/www/ecf-erp/yii auto-car-tire-expiration-notification >> /var/www/ecf-erp/console/logs/auto-car-tire-expiration-notification.log
+
+
+# auto generate working day (every day at 5:03 AM)
+3 5 * * * root php /var/www/ecf-erp/yii auto-generate-working-day 1 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-working-day.log
+3 5 * * * root php /var/www/ecf-erp/yii auto-generate-working-day 2 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-working-day.log
+3 5 * * * root php /var/www/ecf-erp/yii auto-generate-working-day 3 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-working-day.log
+
+# auto generate working day employee (every day at 5:33 AM)
+33 5 * * * root php /var/www/ecf-erp/yii auto-generate-working-day-empl 1 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-working-day-empl.log
+33 5 * * * root php /var/www/ecf-erp/yii auto-generate-working-day-empl 2 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-working-day-empl.log
+33 5 * * * root php /var/www/ecf-erp/yii auto-generate-working-day-empl 3 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-working-day-empl.log
+
+# auto generate permission day (every day at 6:03 AM)
+3 6 * * * root php /var/www/ecf-erp/yii auto-generate-permission-day 1 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-permission-day.log
+3 6 * * * root php /var/www/ecf-erp/yii auto-generate-permission-day 2 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-permission-day.log
+3 6 * * * root php /var/www/ecf-erp/yii auto-generate-permission-day 3 $(date +"\%Y \%m") >> /var/www/ecf-erp/console/logs/auto-generate-permission-day.log
+
+# auto sent notification at the last three days of month if car km not added
+15 09 29,30,31 1,3,5,7,8,10,12 * root php /var/www/ecf-erp/yii auto-modify-kilometers-notification >> /var/www/ecf-erp/console/logs/auto-modify-kilometers-notification.log
+15 09 28,29,30 4,6,9,11 * root php /var/www/ecf-erp/yii auto-modify-kilometers-notification >> /var/www/ecf-erp/console/logs/auto-modify-kilometers-notification.log
+15 09 25,26,27,28 2 * root php /var/www/ecf-erp/yii auto-modify-kilometers-notification >> /var/www/ecf-erp/console/logs/auto-modify-kilometers-notification.log
+
+# auto automatic journeys validation
+55 23 * * * econfaire php/var/www/ecf-erp/ yii auto-validate-journeys
+
+####################### BUILD #######################
+
+# Send notification with new created articles/equipments
+5 * * * * root php /var/www/ecf-erp/yii build-article-equipment >> /var/www/ecf-erp/console/logs/build-article-equipment.log
+
+# Quantity list changes notifications (every hour)
+0 * * * * root php /var/www/ecf-erp/yii build-qty-list-changes-notification >> /var/www/ecf-erp/console/logs/build-qty-list-changes-notification.log
+
+####################### FINANCE #######################
+
+# Downloads the invoice details from SharePoint (every minute)
+* * * * * root php /var/www/ecf-erp/yii finance-invoice-download-body >> /var/www/ecf-erp/console/logs/finance-invoice-download-body.log
+* * * * * root php /var/www/ecf-erp/yii finance-invoice-download-header >> /var/www/ecf-erp/console/logs/finance-invoice-download-header.log
+
+# Generate KPI invoices (every ten minute)
+*/10 * * * * root php /var/www/ecf-erp/yii finance-invoice-generate-kpi >> /var/www/ecf-erp/console/logs/finance-invoice-generate-kpi.log
+
+####################### PMP #######################
+
+# Updates devices status (every minute)
+* * * * * root php /var/www/ecf-erp/yii device/set-status >> /var/www/ecf-erp/console/logs/devices-set-status.log

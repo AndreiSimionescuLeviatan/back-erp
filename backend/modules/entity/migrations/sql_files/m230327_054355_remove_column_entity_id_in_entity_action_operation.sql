@@ -1,0 +1,7 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+
+ALTER TABLE `entity_action_operation` DROP COLUMN `entity_id`;
+
+COMMIT;
